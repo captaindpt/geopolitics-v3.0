@@ -4,7 +4,7 @@
 
 This project aims to develop sophisticated AI agents capable of playing the complex strategic board game Diplomacy. It utilizes Large Language Models (LLMs) integrated into a custom framework to handle game state, agent interactions, negotiation, and order submission. The framework manages the game loop, interfaces with a Diplomacy engine, and provides context to LLM-based agents.
 
-## Current State (April 2024)
+## Current State 
 
 The framework is under active development. Key components include:
 
