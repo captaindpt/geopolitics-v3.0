@@ -283,15 +283,19 @@ class FrameworkOrchestrator:
             negotiation_rounds_total=self.num_negotiation_rounds
         )
 
-        # Placeholder for agent-specific instructions - *** REMOVED OLD MAP ***
-        # Retrieve instructions stored on the agent instance
-        agent_instance = self.agents.get(power_name)
-        if agent_instance and hasattr(agent_instance, 'agent_instructions'):
-             instructions = agent_instance.agent_instructions
-        else:
-             # Fallback if attribute missing for some reason
-             instructions = "You are a Diplomacy power. Play to win." 
-             print(f"Warning: Could not retrieve agent_instructions for {power_name}. Using default.")
+        # Placeholder for agent-specific instructions - load from config later?
+        # Basic examples:
+        base_instruction = "Your goal is to win by controlling 18 supply centers. Communicate strategically, form alliances, and betray when necessary."
+        instructions_map = {
+            "AUSTRIA": "You are Austria. Surrounded and vulnerable. Secure your core territories (Vie, Bud, Tri) and try to ally with Italy or Russia against Turkey.",
+            "ENGLAND": "You are England. An island nation. Secure the seas around you, aiming for Scandinavia and potentially France. Watch out for France and Germany.",
+            "FRANCE": "You are France. Corner position. Expand into Iberia (Spa, Por) and potentially Belgium/Burgundy. Balance relations with England and Germany.",
+            "GERMANY": "You are Germany. Central position. Aim for Scandinavia, Benelux (Bel, Hol), and potentially Warsaw. Be wary of encirclement by England, France, and Russia.",
+            "ITALY": "You are Italy. Focused peninsula. Aim for Tunis and potentially Austria or Turkey. The Lepanto opening against Turkey (with Austrian help) is common.",
+            "RUSSIA": "You are Russia. Large but slow. Secure your southern centers (Sev, Rum, War) and decide whether to focus north (Scandinavia) or south (Turkey/Austria). Watch out for England in the north.",
+            "TURKEY": "You are Turkey. Corner position. Secure the Black Sea and aim for the Balkans (Bul, Gre, Ser, Rum). Often clashes with Austria and Russia."
+        }
+        instructions = instructions_map.get(power_name, base_instruction) # Fallback to base instruction
 
         return AgentContextBundle(
             power_name=power_name,
