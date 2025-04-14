@@ -1,69 +1,50 @@
-# Diplomacy AI Agent Framework
+# Diplomacy LLM Agent Framework
 
-## Overview
-
-This project aims to develop sophisticated AI agents capable of playing the complex strategic board game Diplomacy. It utilizes Large Language Models (LLMs) integrated into a custom framework to handle game state, agent interactions, negotiation, and order submission. The framework manages the game loop, interfaces with a Diplomacy engine, and provides context to LLM-based agents.
-
-## Current State 
-
-The framework is under active development. Key components include:
-
-*   **`FrameworkOrchestrator`**: Manages the game loop, phase transitions (negotiation, orders), and agent activation.
-*   **`EngineAdapter`**: Interfaces with an underlying Diplomacy game engine (assumed to be in `diplomacy_engine/`).
-*   **`LLMAgent`**: An agent implementation that uses an LLM (configured via environment variables to point to an inference endpoint like TGI) to decide actions based on provided context. It uses a tool-calling approach to interact (send messages, submit orders, update memory, log thoughts).
-*   **`HoldAgent`**: A simple baseline agent that holds all units.
-*   **Context Assembly**: The framework assembles detailed context bundles for agents, including game state, recent summaries, incoming messages, agent memory, and specific instructions.
-*   **Debugging & Refinements**: Recent work focused on debugging LLM behavior (specifically for the 'FRANCE' agent), improving context stability, implementing "Think Aloud" logging (`log_thought`), introducing LLM-based state summarization, and generalizing agent goals.
-
-## Key Features
-
-*   Turn-based game loop management compatible with Diplomacy phases.
-*   LLM integration for agent decision-making using OpenAI's client library (configurable for custom endpoints).
-*   Structured tool-calling interface for agent actions (`send_message`, `submit_order`, `update_memory`, `log_thought`).
-*   Distinction between Negotiation rounds and Order Submission phases.
-*   Basic persistent agent memory (`_agent_memory`).
-*   LLM-powered game state summarization between phases.
-*   Timestamped, agent-specific logging for debugging LLM interactions (currently implemented for 'FRANCE').
-*   Generalized high-level goals provided to agents.
+This project provides a framework for running Diplomacy agents, including agents powered by Large Language Models (LLMs), using the `diplomacy` library.
 
 ## Setup
 
-1.  **Clone:** Clone this repository.
-2.  **Environment:** Create and activate a Python virtual environment:
+1.  **Clone the Repository:**
+    ```bash
+    git clone <your-repo-url>
+    cd geopolitics-v3.0 
+    ```
+
+2.  **Create and Activate Virtual Environment:**
     ```bash
     python -m venv .venv
-    source .venv/bin/activate
+    source .venv/bin/activate 
     ```
-3.  **Dependencies:** Install required packages:
+    *(Use `.venv\Scripts\activate` on Windows)*
+
+3.  **Install Dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
-4.  **Environment Variables:** Create a `.env` file in the project root with the following variables:
-    ```dotenv
-    OPENAI_API_KEY="YOUR_API_KEY_OR_PLACEHOLDER" # Required by openai client, even if using custom base url
-    OPENAI_BASE_URL="YOUR_TGI_OR_INFERENCE_ENDPOINT_URL" # e.g., http://localhost:8080/v1
+
+4.  **Set up API Credentials:**
+    The framework uses the `python-dotenv` library to load API keys from a `.env` file in the project root. Create a file named `.env` and add your keys. For the configured Hugging Face Inference Endpoint (TGI), you need:
+    ```.env
+    HF_API_KEY=hf_YOUR_HUGGING_FACE_TOKEN 
+    # If using OpenAI directly (not the default setup currently):
+    # OPENAI_API_KEY=sk-YOUR_OPENAI_KEY
+    # OPENAI_BASE_URL=YOUR_ENDPOINT_URL # If using a custom OpenAI-compatible endpoint
     ```
-    Replace the values with your actual inference endpoint URL and a placeholder API key (the key might not be strictly necessary depending on your endpoint's auth, but the client library often expects it).
+    Replace `hf_YOUR_HUGGING_FACE_TOKEN` with your actual Hugging Face API token that has access to your inference endpoint. Make sure the `.env` file is included in your `.gitignore` if it isn't already.
 
 ## Running the Framework
 
-Execute the main framework module from the project root directory:
+Ensure your virtual environment is activated. Run the main framework script from the project root directory:
 
 ```bash
 source .venv/bin/activate && PYTHONPATH=./diplomacy_engine python -m diplomacy_agent_framework.core.framework
 ```
 
-This command:
-*   Activates the virtual environment.
-*   Adds the `diplomacy_engine` directory to the Python path (assuming the engine code resides there).
-*   Runs the `framework.py` module, which initializes the orchestrator and agents, and starts the game simulation (currently set for 3 phases).
+This command does the following:
+*   Activates the virtual environment (`source .venv/bin/activate`).
+*   Sets the `PYTHONPATH` so that the Python interpreter can find the `diplomacy_engine` module.
+*   Runs the `framework.py` script as a module (`python -m ...`).
 
-Agent interactions, thoughts (if logged), warnings, and phase transitions will be printed to the console. A timestamped log file for France (e.g., `france_llm_log_YYYYMMDD_HHMMSS.txt`) will also be created in the root directory.
+The framework will initialize the game, create the LLM agents with generalized goals, and run the game simulation for a few phases (currently configured for 3 phases in `framework.py`), printing logs and agent thoughts to the console.
 
-## Current Limitations & Next Steps
-
-*   **LLM Reasoning:** Agents currently follow instructions somewhat rigidly and may not exhibit deep strategic reasoning or adaptation, especially in negotiation.
-*   **Memory:** Memory usage is basic (simple key-value store). More sophisticated retrieval and summarization techniques are needed.
-*   **Negotiation:** Negotiation logic is rudimentary. Agents need better strategies for forming alliances, making proposals, and understanding counter-offers.
-*   **Summarization Tuning:** The LLM summarizer prompt might need further tuning for conciseness and relevance.
-*   **Error Handling:** Robustness against invalid LLM outputs or engine errors could be improved. 
+Log files specifically tracking the context and responses for the FRANCE agent will be created in the root directory with timestamps (e.g., `france_llm_log_YYYYMMDD_HHMMSS.txt`). 
