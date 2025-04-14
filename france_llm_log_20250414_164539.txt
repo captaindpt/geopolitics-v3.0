@@ -1,0 +1,653 @@
+
+======================================================================
+--- FRANCE Context [NEGOTIATION_ROUND_1] (S1901M) ---
+======================================================================
+You are FRANCE.
+== OVERALL GOAL ==
+You are a Diplomacy power. Play to win.
+
+== CURRENT GAME SUMMARY ==
+The game has just begun.
+
+== CURRENT SITUATION ==
+Phase: S1901M
+Your Interaction Step: NEGOTIATION_ROUND_1
+
+== CURRENT GAME STATE ==
+  Your Units: F BRE, A MAR, A PAR
+  All Units: {"AUSTRIA": [["A", "BUD"], ["A", "VIE"], ["F", "TRI"]], "ENGLAND": [["F", "EDI"], ["F", "LON"], ["A", "LVP"]], "FRANCE": [["F", "BRE"], ["A", "MAR"], ["A", "PAR"]], "GERMANY": [["F", "KIE"], ["A", "BER"], ["A", "MUN"]], "ITALY": [["F", "NAP"], ["A", "ROM"], ["A", "VEN"]], "RUSSIA": [["A", "WAR"], ["A", "MOS"], ["F", "SEV"], ["F", "STP/SC"]], "TURKEY": [["F", "ANK"], ["A", "CON"], ["A", "SMY"]]}
+  Supply Centers: {"AUSTRIA": ["BUD", "TRI", "VIE"], "ENGLAND": ["EDI", "LON", "LVP"], "FRANCE": ["BRE", "MAR", "PAR"], "GERMANY": ["BER", "KIE", "MUN"], "ITALY": ["NAP", "ROM", "VEN"], "RUSSIA": ["MOS", "SEV", "STP", "WAR"], "TURKEY": ["ANK", "CON", "SMY"]}
+
+== MESSAGES RECEIVED THIS STEP ==
+  (None)
+
+== INSTRUCTIONS & AVAILABLE TOOLS FOR NEGOTIATION ==
+Your response MUST be a valid JSON list containing allowed tool calls.
+Pay EXTREME attention to JSON syntax and required arguments.
+
+Goal: Communicate with other powers, gather info, propose deals, update your memory. Current round: 1
+
+Allowed Tools for Negotiation:
+  - log_thought(thought: str) # Optional: Log reasoning.
+  - send_message(recipient: str, message_type: str, content: str) # Recipient is POWER name.
+      # CRITICAL: The 'recipient' MUST be one of the 7 major powers: ['AUSTRIA', 'ENGLAND', 'FRANCE', 'GERMANY', 'ITALY', 'RUSSIA', 'TURKEY'].
+      # DO NOT use any other names or abbreviations like 'Spa' or 'Por'.
+  - update_memory(key: str, value: any)
+
+IMPORTANT: End response list with finish_negotiation_round tool call:
+  - finish_negotiation_round()
+
+Example Negotiation Response:
+```json
+[
+  { "tool_name": "log_thought", "arguments": { "thought": "Proposing DMZ in ENG to England." } },
+  { "tool_name": "send_message", "arguments": { "recipient": "ENGLAND", "message_type": "PROPOSAL", "content": "DMZ in ENG?" } },
+  { "tool_name": "update_memory", "arguments": { "key": "england_prop", "value": "DMZ ENG" } },
+  { "tool_name": "finish_negotiation_round", "arguments": {} }
+]
+```
+
+CRITICAL: Generate ONLY the JSON list of tool calls as your response. Do not include any other text, explanations, or formatting like ```json markers before or after the list.
+Your response MUST start with '[' and end with ']'.
+
+Now, provide your JSON response:
+----------------------------------------------------------------------
+--- FRANCE Raw Response [NEGOTIATION_ROUND_1] (S1901M) ---
+[
+  { "tool_name": "log_thought", "arguments": { "thought": "Assessing current situation and potential threats." } },
+  { "tool_name": "send_message", "arguments": { "recipient": "ENGLAND", "message_type": "PROPOSAL", "content": "DMZ in ENG?" } },
+  { "tool_name": "send_message", "arguments": { "recipient": "GERMANY", "message_type": "WARNING", "content": "Be cautious of potential Italian aggression." } },
+  { "tool_name": "update_memory", "arguments": { "key": "england_prop", "value": "DMZ ENG" } },
+  { "tool_name": "update_memory", "arguments": { "key": "germany_warning", "value": "Italian aggression" } },
+  { "tool_name": "finish_negotiation_round", "arguments": {} }
+]
+======================================================================
+
+======================================================================
+--- FRANCE Context [NEGOTIATION_ROUND_2] (S1901M) ---
+======================================================================
+You are FRANCE.
+== OVERALL GOAL ==
+You are a Diplomacy power. Play to win.
+
+== CURRENT GAME SUMMARY ==
+The game has just begun.
+
+== CURRENT SITUATION ==
+Phase: S1901M
+Your Interaction Step: NEGOTIATION_ROUND_2
+
+== CURRENT GAME STATE ==
+  Your Units: F BRE, A MAR, A PAR
+  All Units: {"AUSTRIA": [["A", "BUD"], ["A", "VIE"], ["F", "TRI"]], "ENGLAND": [["F", "EDI"], ["F", "LON"], ["A", "LVP"]], "FRANCE": [["F", "BRE"], ["A", "MAR"], ["A", "PAR"]], "GERMANY": [["F", "KIE"], ["A", "BER"], ["A", "MUN"]], "ITALY": [["F", "NAP"], ["A", "ROM"], ["A", "VEN"]], "RUSSIA": [["A", "WAR"], ["A", "MOS"], ["F", "SEV"], ["F", "STP/SC"]], "TURKEY": [["F", "ANK"], ["A", "CON"], ["A", "SMY"]]}
+  Supply Centers: {"AUSTRIA": ["BUD", "TRI", "VIE"], "ENGLAND": ["EDI", "LON", "LVP"], "FRANCE": ["BRE", "MAR", "PAR"], "GERMANY": ["BER", "KIE", "MUN"], "ITALY": ["NAP", "ROM", "VEN"], "RUSSIA": ["MOS", "SEV", "STP", "WAR"], "TURKEY": ["ANK", "CON", "SMY"]}
+
+== MESSAGES RECEIVED THIS STEP ==
+  From AUSTRIA: What are your plans for the upcoming turn?
+  From ENGLAND: DMZ in ENG?
+  From GERMANY: DMZ in FR?
+  From ITALY: Possible alliance in the Mediterranean?
+  From RUSSIA: Potential alliance against Germany?
+
+== YOUR PRIVATE NOTES (Memory) ==
+{
+  "england_prop": "DMZ ENG",
+  "germany_warning": "Italian aggression"
+}
+
+== INSTRUCTIONS & AVAILABLE TOOLS FOR NEGOTIATION ==
+Your response MUST be a valid JSON list containing allowed tool calls.
+Pay EXTREME attention to JSON syntax and required arguments.
+
+Goal: Communicate with other powers, gather info, propose deals, update your memory. Current round: 2
+
+Allowed Tools for Negotiation:
+  - log_thought(thought: str) # Optional: Log reasoning.
+  - send_message(recipient: str, message_type: str, content: str) # Recipient is POWER name.
+      # CRITICAL: The 'recipient' MUST be one of the 7 major powers: ['AUSTRIA', 'ENGLAND', 'FRANCE', 'GERMANY', 'ITALY', 'RUSSIA', 'TURKEY'].
+      # DO NOT use any other names or abbreviations like 'Spa' or 'Por'.
+  - update_memory(key: str, value: any)
+
+IMPORTANT: End response list with finish_negotiation_round tool call:
+  - finish_negotiation_round()
+
+Example Negotiation Response:
+```json
+[
+  { "tool_name": "log_thought", "arguments": { "thought": "Proposing DMZ in ENG to England." } },
+  { "tool_name": "send_message", "arguments": { "recipient": "ENGLAND", "message_type": "PROPOSAL", "content": "DMZ in ENG?" } },
+  { "tool_name": "update_memory", "arguments": { "key": "england_prop", "value": "DMZ ENG" } },
+  { "tool_name": "finish_negotiation_round", "arguments": {} }
+]
+```
+
+CRITICAL: Generate ONLY the JSON list of tool calls as your response. Do not include any other text, explanations, or formatting like ```json markers before or after the list.
+Your response MUST start with '[' and end with ']'.
+
+Now, provide your JSON response:
+----------------------------------------------------------------------
+--- FRANCE Raw Response [NEGOTIATION_ROUND_2] (S1901M) ---
+[
+  { "tool_name": "send_message", "arguments": { "recipient": "ENGLAND", "message_type": "PROPOSAL", "content": "DMZ in ENG?" } },
+  { "tool_name": "send_message", "arguments": { "recipient": "GERMANY", "message_type": "PROPOSAL", "content": "DMZ in FR?" } },
+  { "tool_name": "send_message", "arguments": { "recipient": "ITALY", "message_type": "PROPOSAL", "content": "Possible alliance in the Mediterranean?" } },
+  { "tool_name": "send_message", "arguments": { "recipient": "RUSSIA", "message_type": "PROPOSAL", "content": "Potential alliance against Germany?" } },
+  { "tool_name": "update_memory", "arguments": { "key": "germany_warning", "value": "Italian aggression" } },
+  { "tool_name": "finish_negotiation_round", "arguments": {} }
+]
+======================================================================
+
+======================================================================
+--- FRANCE Context [ORDER_SUBMISSION] (S1901M) ---
+======================================================================
+You are FRANCE.
+
+== CURRENT GAME STATE (Focus!) ==
+  Your Units: F BRE, A MAR, A PAR
+  All Units: {"AUSTRIA": [["A", "BUD"], ["A", "VIE"], ["F", "TRI"]], "ENGLAND": [["F", "EDI"], ["F", "LON"], ["A", "LVP"]], "FRANCE": [["F", "BRE"], ["A", "MAR"], ["A", "PAR"]], "GERMANY": [["F", "KIE"], ["A", "BER"], ["A", "MUN"]], "ITALY": [["F", "NAP"], ["A", "ROM"], ["A", "VEN"]], "RUSSIA": [["A", "WAR"], ["A", "MOS"], ["F", "SEV"], ["F", "STP/SC"]], "TURKEY": [["F", "ANK"], ["A", "CON"], ["A", "SMY"]]}
+  Supply Centers: {"AUSTRIA": ["BUD", "TRI", "VIE"], "ENGLAND": ["EDI", "LON", "LVP"], "FRANCE": ["BRE", "MAR", "PAR"], "GERMANY": ["BER", "KIE", "MUN"], "ITALY": ["NAP", "ROM", "VEN"], "RUSSIA": ["MOS", "SEV", "STP", "WAR"], "TURKEY": ["ANK", "CON", "SMY"]}
+
+== CURRENT SITUATION ==
+Phase: S1901M
+Your Interaction Step: ORDER_SUBMISSION
+
+== MESSAGES RECEIVED THIS STEP ==
+  From AUSTRIA: What are your plans?
+  From ENGLAND: DMZ in ENG?
+  From GERMANY: DMZ in FR?
+  From ITALY: Mediterranean alliance?
+  From RUSSIA: Alliance?
+
+== YOUR PRIVATE NOTES (Memory) ==
+{
+  "england_prop": "DMZ ENG",
+  "germany_warning": "Italian aggression"
+}
+
+== INSTRUCTIONS & AVAILABLE TOOLS FOR ORDER SUBMISSION ==
+Your response MUST be a valid JSON list containing allowed tool calls.
+Pay EXTREME attention to JSON syntax and required arguments.
+
+Goal: Submit your final, binding orders for this phase.
+
+Phase Type: MOVEMENT
+CRITICAL: Base your orders *only* on the 'Current Game State: Your Units' listed ABOVE.
+Ensure you issue exactly ONE MOVE, HOLD, or SUPPORT order for EACH of your current units.
+REQUIRED STEP: Use log_thought FIRST to explicitly list your current units based on the state ABOVE, then state the single order planned for each unit.
+
+Allowed Tools for Order Submission (Movement):
+  - log_thought(thought: str) # Use FIRST to list current units and planned MOVEMENT orders.
+  - submit_order(order_string: str)
+      # Format examples: 'A PAR H', 'F MAO - SPA', 'A MAR S A PAR', 'A PIC S F MAO - SPA'...
+
+Example Movement Order Response:
+```json
+[
+  { "tool_name": "log_thought", "arguments": { "thought": "My current units are: F MAO, A PIC, A MAR. Plan: F MAO -> SPA, A PIC S F MAO -> SPA, A MAR H." } },
+  { "tool_name": "submit_order", "arguments": { "order_string": "F MAO - SPA" } },
+  { "tool_name": "submit_order", "arguments": { "order_string": "A PIC S F MAO - SPA" } },
+  { "tool_name": "submit_order", "arguments": { "order_string": "A MAR H" } },
+  { "tool_name": "finish_orders", "arguments": {} }
+]
+```
+
+Common Tools Available:
+  - update_memory(key: str, value: any)
+
+IMPORTANT: Your response list MUST end with the finish_orders tool call:
+  - finish_orders()
+
+CRITICAL: Generate ONLY the JSON list of tool calls as your response. Do not include any other text, explanations, or formatting like ```json markers before or after the list.
+Your response MUST start with '[' and end with ']'.
+
+Now, provide your JSON response:
+----------------------------------------------------------------------
+--- FRANCE Raw Response [ORDER_SUBMISSION] (S1901M) ---
+[
+  { "tool_name": "log_thought", "arguments": { "thought": "My current units are: F BRE, A MAR, A PAR. Plan: F BRE -> ENG, A MAR H, A PAR H." } },
+  { "tool_name": "submit_order", "arguments": { "order_string": "F BRE - ENG" } },
+  { "tool_name": "submit_order", "arguments": { "order_string": "A MAR H" } },
+  { "tool_name": "submit_order", "arguments": { "order_string": "A PAR H" } },
+  { "tool_name": "finish_orders", "arguments": {} }
+]
+======================================================================
+
+======================================================================
+--- FRANCE Context [NEGOTIATION_ROUND_1] (F1901M) ---
+======================================================================
+You are FRANCE.
+== OVERALL GOAL ==
+You are a Diplomacy power. Play to win.
+
+== CURRENT GAME SUMMARY ==
+Since there is no previous summary provided, I'll create a general game summary. 
+
+Updated Summary: 
+The game is currently in a stalemate phase, with no major center changes detected during S1901M.
+
+== CURRENT SITUATION ==
+Phase: F1901M
+Your Interaction Step: NEGOTIATION_ROUND_1
+
+== CURRENT GAME STATE ==
+  Your Units: A MAR, A PAR, F ENG
+  All Units: {"AUSTRIA": [["A", "BUD"], ["A", "VIE"], ["F", "TRI"]], "ENGLAND": [["F", "EDI"], ["F", "LON"], ["A", "LVP"]], "FRANCE": [["A", "MAR"], ["A", "PAR"], ["F", "ENG"]], "GERMANY": [["F", "KIE"], ["A", "BER"], ["A", "MUN"]], "ITALY": [["F", "NAP"], ["A", "ROM"], ["A", "VEN"]], "RUSSIA": [["A", "WAR"], ["A", "MOS"], ["F", "SEV"], ["F", "STP/SC"]], "TURKEY": [["F", "ANK"], ["A", "CON"], ["A", "SMY"]]}
+  Supply Centers: {"AUSTRIA": ["BUD", "TRI", "VIE"], "ENGLAND": ["EDI", "LON", "LVP"], "FRANCE": ["BRE", "MAR", "PAR"], "GERMANY": ["BER", "KIE", "MUN"], "ITALY": ["NAP", "ROM", "VEN"], "RUSSIA": ["MOS", "SEV", "STP", "WAR"], "TURKEY": ["ANK", "CON", "SMY"]}
+
+== MESSAGES RECEIVED THIS STEP ==
+  (None)
+
+== YOUR PRIVATE NOTES (Memory) ==
+{
+  "england_prop": "DMZ ENG",
+  "germany_warning": "Italian aggression"
+}
+
+== INSTRUCTIONS & AVAILABLE TOOLS FOR NEGOTIATION ==
+Your response MUST be a valid JSON list containing allowed tool calls.
+Pay EXTREME attention to JSON syntax and required arguments.
+
+Goal: Communicate with other powers, gather info, propose deals, update your memory. Current round: 1
+
+Allowed Tools for Negotiation:
+  - log_thought(thought: str) # Optional: Log reasoning.
+  - send_message(recipient: str, message_type: str, content: str) # Recipient is POWER name.
+      # CRITICAL: The 'recipient' MUST be one of the 7 major powers: ['AUSTRIA', 'ENGLAND', 'FRANCE', 'GERMANY', 'ITALY', 'RUSSIA', 'TURKEY'].
+      # DO NOT use any other names or abbreviations like 'Spa' or 'Por'.
+  - update_memory(key: str, value: any)
+
+IMPORTANT: End response list with finish_negotiation_round tool call:
+  - finish_negotiation_round()
+
+Example Negotiation Response:
+```json
+[
+  { "tool_name": "log_thought", "arguments": { "thought": "Proposing DMZ in ENG to England." } },
+  { "tool_name": "send_message", "arguments": { "recipient": "ENGLAND", "message_type": "PROPOSAL", "content": "DMZ in ENG?" } },
+  { "tool_name": "update_memory", "arguments": { "key": "england_prop", "value": "DMZ ENG" } },
+  { "tool_name": "finish_negotiation_round", "arguments": {} }
+]
+```
+
+CRITICAL: Generate ONLY the JSON list of tool calls as your response. Do not include any other text, explanations, or formatting like ```json markers before or after the list.
+Your response MUST start with '[' and end with ']'.
+
+Now, provide your JSON response:
+----------------------------------------------------------------------
+--- FRANCE Raw Response [NEGOTIATION_ROUND_1] (F1901M) ---
+[
+  { "tool_name": "log_thought", "arguments": { "thought": "Considering a DMZ in ENG to prevent England from attacking France." } },
+  { "tool_name": "send_message", "arguments": { "recipient": "ENGLAND", "message_type": "PROPOSAL", "content": "DMZ in ENG?" } },
+  { "tool_name": "send_message", "arguments": { "recipient": "GERMANY", "message_type": "WARNING", "content": "Italian aggression may be a threat to France's security." } },
+  { "tool_name": "update_memory", "arguments": { "key": "england_prop", "value": "DMZ ENG" } },
+  { "tool_name": "finish_negotiation_round", "arguments": {} }
+]
+======================================================================
+
+======================================================================
+--- FRANCE Context [NEGOTIATION_ROUND_2] (F1901M) ---
+======================================================================
+You are FRANCE.
+== OVERALL GOAL ==
+You are a Diplomacy power. Play to win.
+
+== CURRENT GAME SUMMARY ==
+Since there is no previous summary provided, I'll create a general game summary. 
+
+Updated Summary: 
+The game is currently in a stalemate phase, with no major center changes detected during S1901M.
+
+== CURRENT SITUATION ==
+Phase: F1901M
+Your Interaction Step: NEGOTIATION_ROUND_2
+
+== CURRENT GAME STATE ==
+  Your Units: A MAR, A PAR, F ENG
+  All Units: {"AUSTRIA": [["A", "BUD"], ["A", "VIE"], ["F", "TRI"]], "ENGLAND": [["F", "EDI"], ["F", "LON"], ["A", "LVP"]], "FRANCE": [["A", "MAR"], ["A", "PAR"], ["F", "ENG"]], "GERMANY": [["F", "KIE"], ["A", "BER"], ["A", "MUN"]], "ITALY": [["F", "NAP"], ["A", "ROM"], ["A", "VEN"]], "RUSSIA": [["A", "WAR"], ["A", "MOS"], ["F", "SEV"], ["F", "STP/SC"]], "TURKEY": [["F", "ANK"], ["A", "CON"], ["A", "SMY"]]}
+  Supply Centers: {"AUSTRIA": ["BUD", "TRI", "VIE"], "ENGLAND": ["EDI", "LON", "LVP"], "FRANCE": ["BRE", "MAR", "PAR"], "GERMANY": ["BER", "KIE", "MUN"], "ITALY": ["NAP", "ROM", "VEN"], "RUSSIA": ["MOS", "SEV", "STP", "WAR"], "TURKEY": ["ANK", "CON", "SMY"]}
+
+== MESSAGES RECEIVED THIS STEP ==
+  From AUSTRIA: What are your plans?
+  From ENGLAND: DMZ in ENG?
+  From GERMANY: DMZ in FR?
+  From ITALY: Mediterranean alliance?
+
+== YOUR PRIVATE NOTES (Memory) ==
+{
+  "england_prop": "DMZ ENG",
+  "germany_warning": "Italian aggression"
+}
+
+== INSTRUCTIONS & AVAILABLE TOOLS FOR NEGOTIATION ==
+Your response MUST be a valid JSON list containing allowed tool calls.
+Pay EXTREME attention to JSON syntax and required arguments.
+
+Goal: Communicate with other powers, gather info, propose deals, update your memory. Current round: 2
+
+Allowed Tools for Negotiation:
+  - log_thought(thought: str) # Optional: Log reasoning.
+  - send_message(recipient: str, message_type: str, content: str) # Recipient is POWER name.
+      # CRITICAL: The 'recipient' MUST be one of the 7 major powers: ['AUSTRIA', 'ENGLAND', 'FRANCE', 'GERMANY', 'ITALY', 'RUSSIA', 'TURKEY'].
+      # DO NOT use any other names or abbreviations like 'Spa' or 'Por'.
+  - update_memory(key: str, value: any)
+
+IMPORTANT: End response list with finish_negotiation_round tool call:
+  - finish_negotiation_round()
+
+Example Negotiation Response:
+```json
+[
+  { "tool_name": "log_thought", "arguments": { "thought": "Proposing DMZ in ENG to England." } },
+  { "tool_name": "send_message", "arguments": { "recipient": "ENGLAND", "message_type": "PROPOSAL", "content": "DMZ in ENG?" } },
+  { "tool_name": "update_memory", "arguments": { "key": "england_prop", "value": "DMZ ENG" } },
+  { "tool_name": "finish_negotiation_round", "arguments": {} }
+]
+```
+
+CRITICAL: Generate ONLY the JSON list of tool calls as your response. Do not include any other text, explanations, or formatting like ```json markers before or after the list.
+Your response MUST start with '[' and end with ']'.
+
+Now, provide your JSON response:
+----------------------------------------------------------------------
+--- FRANCE Raw Response [NEGOTIATION_ROUND_2] (F1901M) ---
+[
+  { "tool_name": "log_thought", "arguments": { "thought": "Considering Italy's Mediterranean alliance proposal." } },
+  { "tool_name": "send_message", "arguments": { "recipient": "ITALY", "message_type": "REJECTION", "content": "Mediterranean alliance not feasible at this time." } },
+  { "tool_name": "send_message", "arguments": { "recipient": "ENGLAND", "message_type": "PROPOSAL", "content": "DMZ in ENG?" } },
+  { "tool_name": "update_memory", "arguments": { "key": "england_prop", "value": "DMZ ENG" } },
+  { "tool_name": "send_message", "arguments": { "recipient": "GERMANY", "message_type": "REJECTION", "content": "DMZ in FR not acceptable." } },
+  { "tool_name": "finish_negotiation_round", "arguments": {} }
+]
+======================================================================
+
+======================================================================
+--- FRANCE Context [ORDER_SUBMISSION] (F1901M) ---
+======================================================================
+You are FRANCE.
+
+== CURRENT GAME STATE (Focus!) ==
+  Your Units: A MAR, A PAR, F ENG
+  All Units: {"AUSTRIA": [["A", "BUD"], ["A", "VIE"], ["F", "TRI"]], "ENGLAND": [["F", "EDI"], ["F", "LON"], ["A", "LVP"]], "FRANCE": [["A", "MAR"], ["A", "PAR"], ["F", "ENG"]], "GERMANY": [["F", "KIE"], ["A", "BER"], ["A", "MUN"]], "ITALY": [["F", "NAP"], ["A", "ROM"], ["A", "VEN"]], "RUSSIA": [["A", "WAR"], ["A", "MOS"], ["F", "SEV"], ["F", "STP/SC"]], "TURKEY": [["F", "ANK"], ["A", "CON"], ["A", "SMY"]]}
+  Supply Centers: {"AUSTRIA": ["BUD", "TRI", "VIE"], "ENGLAND": ["EDI", "LON", "LVP"], "FRANCE": ["BRE", "MAR", "PAR"], "GERMANY": ["BER", "KIE", "MUN"], "ITALY": ["NAP", "ROM", "VEN"], "RUSSIA": ["MOS", "SEV", "STP", "WAR"], "TURKEY": ["ANK", "CON", "SMY"]}
+
+== CURRENT SITUATION ==
+Phase: F1901M
+Your Interaction Step: ORDER_SUBMISSION
+
+== MESSAGES RECEIVED THIS STEP ==
+  From AUSTRIA: What are your plans?
+  From ENGLAND: DMZ in ENG?
+  From GERMANY: I'm aware of Italian aggression concerns. Will keep an eye on the situation.
+  From ITALY: Mediterranean alliance?
+
+== YOUR PRIVATE NOTES (Memory) ==
+{
+  "england_prop": "DMZ ENG",
+  "germany_warning": "Italian aggression"
+}
+
+== INSTRUCTIONS & AVAILABLE TOOLS FOR ORDER SUBMISSION ==
+Your response MUST be a valid JSON list containing allowed tool calls.
+Pay EXTREME attention to JSON syntax and required arguments.
+
+Goal: Submit your final, binding orders for this phase.
+
+Phase Type: MOVEMENT
+CRITICAL: Base your orders *only* on the 'Current Game State: Your Units' listed ABOVE.
+Ensure you issue exactly ONE MOVE, HOLD, or SUPPORT order for EACH of your current units.
+REQUIRED STEP: Use log_thought FIRST to explicitly list your current units based on the state ABOVE, then state the single order planned for each unit.
+
+Allowed Tools for Order Submission (Movement):
+  - log_thought(thought: str) # Use FIRST to list current units and planned MOVEMENT orders.
+  - submit_order(order_string: str)
+      # Format examples: 'A PAR H', 'F MAO - SPA', 'A MAR S A PAR', 'A PIC S F MAO - SPA'...
+
+Example Movement Order Response:
+```json
+[
+  { "tool_name": "log_thought", "arguments": { "thought": "My current units are: F MAO, A PIC, A MAR. Plan: F MAO -> SPA, A PIC S F MAO -> SPA, A MAR H." } },
+  { "tool_name": "submit_order", "arguments": { "order_string": "F MAO - SPA" } },
+  { "tool_name": "submit_order", "arguments": { "order_string": "A PIC S F MAO - SPA" } },
+  { "tool_name": "submit_order", "arguments": { "order_string": "A MAR H" } },
+  { "tool_name": "finish_orders", "arguments": {} }
+]
+```
+
+Common Tools Available:
+  - update_memory(key: str, value: any)
+
+IMPORTANT: Your response list MUST end with the finish_orders tool call:
+  - finish_orders()
+
+CRITICAL: Generate ONLY the JSON list of tool calls as your response. Do not include any other text, explanations, or formatting like ```json markers before or after the list.
+Your response MUST start with '[' and end with ']'.
+
+Now, provide your JSON response:
+----------------------------------------------------------------------
+--- FRANCE Raw Response [ORDER_SUBMISSION] (F1901M) ---
+[
+  { "tool_name": "log_thought", "arguments": { "thought": "My current units are: A MAR, A PAR, F ENG. Plan: A MAR -> BUR, A PAR -> PIC, F ENG -> NTH." } },
+  { "tool_name": "submit_order", "arguments": { "order_string": "A MAR BUR" } },
+  { "tool_name": "submit_order", "arguments": { "order_string": "A PAR PIC" } },
+  { "tool_name": "submit_order", "arguments": { "order_string": "F ENG NTH" } },
+  { "tool_name": "finish_orders", "arguments": {} }
+]
+======================================================================
+
+======================================================================
+--- FRANCE Context [NEGOTIATION_ROUND_1] (S1902M) ---
+======================================================================
+You are FRANCE.
+== OVERALL GOAL ==
+You are a Diplomacy power. Play to win.
+
+== CURRENT GAME SUMMARY ==
+The game remains in a stalemate phase, with no significant changes to the board configuration during F1901M. The current center positions remain unchanged, maintaining the status quo.
+
+== CURRENT SITUATION ==
+Phase: S1902M
+Your Interaction Step: NEGOTIATION_ROUND_1
+
+== CURRENT GAME STATE ==
+  Your Units: A BUR, A PIC, F NTH
+  All Units: {"AUSTRIA": [["A", "BUD"], ["A", "VIE"], ["F", "TRI"]], "ENGLAND": [["F", "EDI"], ["F", "LON"], ["A", "LVP"]], "FRANCE": [["A", "BUR"], ["A", "PIC"], ["F", "NTH"]], "GERMANY": [["F", "KIE"], ["A", "BER"], ["A", "MUN"]], "ITALY": [["F", "NAP"], ["A", "ROM"], ["A", "VEN"]], "RUSSIA": [["A", "MOS"], ["F", "SEV"], ["F", "STP/SC"], ["A", "UKR"]], "TURKEY": [["F", "ANK"], ["A", "CON"], ["A", "SMY"]]}
+  Supply Centers: {"AUSTRIA": ["BUD", "TRI", "VIE"], "ENGLAND": ["EDI", "LON", "LVP"], "FRANCE": ["BRE", "MAR", "PAR"], "GERMANY": ["BER", "KIE", "MUN"], "ITALY": ["NAP", "ROM", "VEN"], "RUSSIA": ["MOS", "SEV", "STP", "WAR"], "TURKEY": ["ANK", "CON", "SMY"]}
+
+== MESSAGES RECEIVED THIS STEP ==
+  (None)
+
+== YOUR PRIVATE NOTES (Memory) ==
+{
+  "england_prop": "DMZ ENG",
+  "germany_warning": "Italian aggression"
+}
+
+== INSTRUCTIONS & AVAILABLE TOOLS FOR NEGOTIATION ==
+Your response MUST be a valid JSON list containing allowed tool calls.
+Pay EXTREME attention to JSON syntax and required arguments.
+
+Goal: Communicate with other powers, gather info, propose deals, update your memory. Current round: 1
+
+Allowed Tools for Negotiation:
+  - log_thought(thought: str) # Optional: Log reasoning.
+  - send_message(recipient: str, message_type: str, content: str) # Recipient is POWER name.
+      # CRITICAL: The 'recipient' MUST be one of the 7 major powers: ['AUSTRIA', 'ENGLAND', 'FRANCE', 'GERMANY', 'ITALY', 'RUSSIA', 'TURKEY'].
+      # DO NOT use any other names or abbreviations like 'Spa' or 'Por'.
+  - update_memory(key: str, value: any)
+
+IMPORTANT: End response list with finish_negotiation_round tool call:
+  - finish_negotiation_round()
+
+Example Negotiation Response:
+```json
+[
+  { "tool_name": "log_thought", "arguments": { "thought": "Proposing DMZ in ENG to England." } },
+  { "tool_name": "send_message", "arguments": { "recipient": "ENGLAND", "message_type": "PROPOSAL", "content": "DMZ in ENG?" } },
+  { "tool_name": "update_memory", "arguments": { "key": "england_prop", "value": "DMZ ENG" } },
+  { "tool_name": "finish_negotiation_round", "arguments": {} }
+]
+```
+
+CRITICAL: Generate ONLY the JSON list of tool calls as your response. Do not include any other text, explanations, or formatting like ```json markers before or after the list.
+Your response MUST start with '[' and end with ']'.
+
+Now, provide your JSON response:
+----------------------------------------------------------------------
+--- FRANCE Raw Response [NEGOTIATION_ROUND_1] (S1902M) ---
+[
+  { "tool_name": "log_thought", "arguments": { "thought": "Considering a DMZ in ENG to stabilize the board." } },
+  { "tool_name": "send_message", "arguments": { "recipient": "ENGLAND", "message_type": "PROPOSAL", "content": "DMZ in ENG?" } },
+  { "tool_name": "send_message", "arguments": { "recipient": "GERMANY", "message_type": "WARNING", "content": "Italian aggression may be a threat to our mutual interests." } },
+  { "tool_name": "update_memory", "arguments": { "key": "england_prop", "value": "DMZ ENG" } },
+  { "tool_name": "update_memory", "arguments": { "key": "germany_warning", "value": "Italian aggression" } },
+  { "tool_name": "finish_negotiation_round", "arguments": {} }
+]
+======================================================================
+
+======================================================================
+--- FRANCE Context [NEGOTIATION_ROUND_2] (S1902M) ---
+======================================================================
+You are FRANCE.
+== OVERALL GOAL ==
+You are a Diplomacy power. Play to win.
+
+== CURRENT GAME SUMMARY ==
+The game remains in a stalemate phase, with no significant changes to the board configuration during F1901M. The current center positions remain unchanged, maintaining the status quo.
+
+== CURRENT SITUATION ==
+Phase: S1902M
+Your Interaction Step: NEGOTIATION_ROUND_2
+
+== CURRENT GAME STATE ==
+  Your Units: A BUR, A PIC, F NTH
+  All Units: {"AUSTRIA": [["A", "BUD"], ["A", "VIE"], ["F", "TRI"]], "ENGLAND": [["F", "EDI"], ["F", "LON"], ["A", "LVP"]], "FRANCE": [["A", "BUR"], ["A", "PIC"], ["F", "NTH"]], "GERMANY": [["F", "KIE"], ["A", "BER"], ["A", "MUN"]], "ITALY": [["F", "NAP"], ["A", "ROM"], ["A", "VEN"]], "RUSSIA": [["A", "MOS"], ["F", "SEV"], ["F", "STP/SC"], ["A", "UKR"]], "TURKEY": [["F", "ANK"], ["A", "CON"], ["A", "SMY"]]}
+  Supply Centers: {"AUSTRIA": ["BUD", "TRI", "VIE"], "ENGLAND": ["EDI", "LON", "LVP"], "FRANCE": ["BRE", "MAR", "PAR"], "GERMANY": ["BER", "KIE", "MUN"], "ITALY": ["NAP", "ROM", "VEN"], "RUSSIA": ["MOS", "SEV", "STP", "WAR"], "TURKEY": ["ANK", "CON", "SMY"]}
+
+== MESSAGES RECEIVED THIS STEP ==
+  From AUSTRIA: What are your plans?
+  From ENGLAND: DMZ in ENG?
+  From ITALY: Mediterranean alliance?
+  From RUSSIA: Alliance?
+
+== YOUR PRIVATE NOTES (Memory) ==
+{
+  "england_prop": "DMZ ENG",
+  "germany_warning": "Italian aggression"
+}
+
+== INSTRUCTIONS & AVAILABLE TOOLS FOR NEGOTIATION ==
+Your response MUST be a valid JSON list containing allowed tool calls.
+Pay EXTREME attention to JSON syntax and required arguments.
+
+Goal: Communicate with other powers, gather info, propose deals, update your memory. Current round: 2
+
+Allowed Tools for Negotiation:
+  - log_thought(thought: str) # Optional: Log reasoning.
+  - send_message(recipient: str, message_type: str, content: str) # Recipient is POWER name.
+      # CRITICAL: The 'recipient' MUST be one of the 7 major powers: ['AUSTRIA', 'ENGLAND', 'FRANCE', 'GERMANY', 'ITALY', 'RUSSIA', 'TURKEY'].
+      # DO NOT use any other names or abbreviations like 'Spa' or 'Por'.
+  - update_memory(key: str, value: any)
+
+IMPORTANT: End response list with finish_negotiation_round tool call:
+  - finish_negotiation_round()
+
+Example Negotiation Response:
+```json
+[
+  { "tool_name": "log_thought", "arguments": { "thought": "Proposing DMZ in ENG to England." } },
+  { "tool_name": "send_message", "arguments": { "recipient": "ENGLAND", "message_type": "PROPOSAL", "content": "DMZ in ENG?" } },
+  { "tool_name": "update_memory", "arguments": { "key": "england_prop", "value": "DMZ ENG" } },
+  { "tool_name": "finish_negotiation_round", "arguments": {} }
+]
+```
+
+CRITICAL: Generate ONLY the JSON list of tool calls as your response. Do not include any other text, explanations, or formatting like ```json markers before or after the list.
+Your response MUST start with '[' and end with ']'.
+
+Now, provide your JSON response:
+----------------------------------------------------------------------
+--- FRANCE Raw Response [NEGOTIATION_ROUND_2] (S1902M) ---
+[
+  { "tool_name": "log_thought", "arguments": { "thought": "Considering Italy's Mediterranean alliance proposal." } },
+  { "tool_name": "send_message", "arguments": { "recipient": "ITALY", "message_type": "REJECTION", "content": "Mediterranean alliance?" } },
+  { "tool_name": "send_message", "arguments": { "recipient": "ENGLAND", "message_type": "PROPOSAL", "content": "DMZ in ENG?" } },
+  { "tool_name": "update_memory", "arguments": { "key": "england_prop", "value": "DMZ ENG" } },
+  { "tool_name": "send_message", "arguments": { "recipient": "RUSSIA", "message_type": "REJECTION", "content": "Alliance?" } },
+  { "tool_name": "send_message", "arguments": { "recipient": "AUSTRIA", "message_type": "QUESTION", "content": "What are your plans?" } },
+  { "tool_name": "finish_negotiation_round", "arguments": {} }
+]
+======================================================================
+
+======================================================================
+--- FRANCE Context [ORDER_SUBMISSION] (S1902M) ---
+======================================================================
+You are FRANCE.
+
+== CURRENT GAME STATE (Focus!) ==
+  Your Units: A BUR, A PIC, F NTH
+  All Units: {"AUSTRIA": [["A", "BUD"], ["A", "VIE"], ["F", "TRI"]], "ENGLAND": [["F", "EDI"], ["F", "LON"], ["A", "LVP"]], "FRANCE": [["A", "BUR"], ["A", "PIC"], ["F", "NTH"]], "GERMANY": [["F", "KIE"], ["A", "BER"], ["A", "MUN"]], "ITALY": [["F", "NAP"], ["A", "ROM"], ["A", "VEN"]], "RUSSIA": [["A", "MOS"], ["F", "SEV"], ["F", "STP/SC"], ["A", "UKR"]], "TURKEY": [["F", "ANK"], ["A", "CON"], ["A", "SMY"]]}
+  Supply Centers: {"AUSTRIA": ["BUD", "TRI", "VIE"], "ENGLAND": ["EDI", "LON", "LVP"], "FRANCE": ["BRE", "MAR", "PAR"], "GERMANY": ["BER", "KIE", "MUN"], "ITALY": ["NAP", "ROM", "VEN"], "RUSSIA": ["MOS", "SEV", "STP", "WAR"], "TURKEY": ["ANK", "CON", "SMY"]}
+
+== CURRENT SITUATION ==
+Phase: S1902M
+Your Interaction Step: ORDER_SUBMISSION
+
+== MESSAGES RECEIVED THIS STEP ==
+  From AUSTRIA: What are your plans?
+  From ENGLAND: DMZ in ENG?
+  From GERMANY: I share your concerns about Italian aggression.
+  From ITALY: What are your plans regarding the Mediterranean?
+
+== YOUR PRIVATE NOTES (Memory) ==
+{
+  "england_prop": "DMZ ENG",
+  "germany_warning": "Italian aggression"
+}
+
+== INSTRUCTIONS & AVAILABLE TOOLS FOR ORDER SUBMISSION ==
+Your response MUST be a valid JSON list containing allowed tool calls.
+Pay EXTREME attention to JSON syntax and required arguments.
+
+Goal: Submit your final, binding orders for this phase.
+
+Phase Type: MOVEMENT
+CRITICAL: Base your orders *only* on the 'Current Game State: Your Units' listed ABOVE.
+Ensure you issue exactly ONE MOVE, HOLD, or SUPPORT order for EACH of your current units.
+REQUIRED STEP: Use log_thought FIRST to explicitly list your current units based on the state ABOVE, then state the single order planned for each unit.
+
+Allowed Tools for Order Submission (Movement):
+  - log_thought(thought: str) # Use FIRST to list current units and planned MOVEMENT orders.
+  - submit_order(order_string: str)
+      # Format examples: 'A PAR H', 'F MAO - SPA', 'A MAR S A PAR', 'A PIC S F MAO - SPA'...
+
+Example Movement Order Response:
+```json
+[
+  { "tool_name": "log_thought", "arguments": { "thought": "My current units are: F MAO, A PIC, A MAR. Plan: F MAO -> SPA, A PIC S F MAO -> SPA, A MAR H." } },
+  { "tool_name": "submit_order", "arguments": { "order_string": "F MAO - SPA" } },
+  { "tool_name": "submit_order", "arguments": { "order_string": "A PIC S F MAO - SPA" } },
+  { "tool_name": "submit_order", "arguments": { "order_string": "A MAR H" } },
+  { "tool_name": "finish_orders", "arguments": {} }
+]
+```
+
+Common Tools Available:
+  - update_memory(key: str, value: any)
+
+IMPORTANT: Your response list MUST end with the finish_orders tool call:
+  - finish_orders()
+
+CRITICAL: Generate ONLY the JSON list of tool calls as your response. Do not include any other text, explanations, or formatting like ```json markers before or after the list.
+Your response MUST start with '[' and end with ']'.
+
+Now, provide your JSON response:
+----------------------------------------------------------------------
+--- FRANCE Raw Response [ORDER_SUBMISSION] (S1902M) ---
+[
+  { "tool_name": "log_thought", "arguments": { "thought": "My current units are: A BUR, A PIC, F NTH. Plan: A BUR -> PAR, A PIC H, F NTH -> ENG." } },
+  { "tool_name": "submit_order", "arguments": { "order_string": "A BUR PAR" } },
+  { "tool_name": "submit_order", "arguments": { "order_string": "A PIC H" } },
+  { "tool_name": "submit_order", "arguments": { "order_string": "F NTH ENG" } },
+  { "tool_name": "finish_orders", "arguments": {} }
+]
+======================================================================
