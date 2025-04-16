@@ -1,0 +1,148 @@
+GameState Log Initialized.
+
+=== Game State After Phase: S1901M ===
+{
+  "centers": {
+    "AUSTRIA": [
+      "BUD",
+      "TRI",
+      "VIE"
+    ],
+    "ENGLAND": [
+      "EDI",
+      "LON",
+      "LVP"
+    ],
+    "FRANCE": [
+      "BRE",
+      "MAR",
+      "PAR"
+    ],
+    "GERMANY": [
+      "BER",
+      "KIE",
+      "MUN"
+    ],
+    "ITALY": [
+      "NAP",
+      "ROM",
+      "VEN"
+    ],
+    "RUSSIA": [
+      "MOS",
+      "SEV",
+      "STP",
+      "WAR"
+    ],
+    "TURKEY": [
+      "ANK",
+      "CON",
+      "SMY"
+    ]
+  },
+  "units": {
+    "AUSTRIA": [
+      [
+        "A",
+        "VIE"
+      ],
+      [
+        "A",
+        "SER"
+      ],
+      [
+        "F",
+        "ALB"
+      ]
+    ],
+    "ENGLAND": [
+      [
+        "F",
+        "NWG"
+      ],
+      [
+        "F",
+        "NTH"
+      ],
+      [
+        "A",
+        "YOR"
+      ]
+    ],
+    "FRANCE": [
+      [
+        "F",
+        "MAO"
+      ],
+      [
+        "A",
+        "GAS"
+      ],
+      [
+        "A",
+        "PIC"
+      ]
+    ],
+    "GERMANY": [
+      [
+        "F",
+        "DEN"
+      ],
+      [
+        "A",
+        "PRU"
+      ],
+      [
+        "A",
+        "RUH"
+      ]
+    ],
+    "ITALY": [
+      [
+        "A",
+        "ROM"
+      ],
+      [
+        "F",
+        "ION"
+      ],
+      [
+        "A",
+        "APU"
+      ]
+    ],
+    "RUSSIA": [
+      [
+        "A",
+        "WAR"
+      ],
+      [
+        "F",
+        "SEV"
+      ],
+      [
+        "A",
+        "UKR"
+      ],
+      [
+        "F",
+        "BOT"
+      ]
+    ],
+    "TURKEY": [
+      [
+        "F",
+        "ANK"
+      ],
+      [
+        "A",
+        "SMY"
+      ],
+      [
+        "A",
+        "BUL"
+      ]
+    ]
+  },
+  "builds_disbands": {}
+}

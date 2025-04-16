@@ -14,7 +14,7 @@ class BaseAgent(abc.ABC):
         # but the agent's logic operates on it conceptually.
 
     @abc.abstractmethod
-    def take_turn(self, context_bundle: AgentContextBundle) -> List[ActionToolCall]:
+    def take_turn(self, context_bundle: AgentContextBundle, run_log_dir: str = None) -> List[ActionToolCall]:
         """
         Processes the given context and determines the agent's actions for its current turn.
 
@@ -26,6 +26,7 @@ class BaseAgent(abc.ABC):
             context_bundle: An object containing all relevant information (game state,
                             messages, history summaries, instructions, etc.) needed
                             for the agent to make a decision.
+            run_log_dir: Optional path to a directory for run-specific logging.
 
         Returns:
             A list of ActionToolCall objects representing the sequence of actions
