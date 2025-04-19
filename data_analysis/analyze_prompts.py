@@ -14,7 +14,9 @@ except ImportError:
 
 # --- Constants ---
 DEFAULT_LOGS_DIR = "logs"
-DEFAULT_OUTPUT_CSV = "prompt_analysis.csv"
+# Construct the default output path relative to this script's location
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+DEFAULT_OUTPUT_CSV = os.path.join(SCRIPT_DIR, "prompt_analysis.csv")
 # Common encoding for many newer OpenAI models, adjust if needed
 DEFAULT_TOKENIZER_ENCODING = "cl100k_base"
 # Max characters of prompt to include in CSV snippet
