@@ -1,0 +1,96 @@
+2025-04-17 12:53:18,106 - __main__ - INFO - Logging initialized. Run logs will be saved in: logs/run_20250417_125318
+2025-04-17 12:53:18,106 - __main__ - INFO - --- Starting Diplomacy Game Simulation (MCP Mode) ---
+2025-04-17 12:53:18,106 - __main__ - INFO - Initializing Orchestrator MCP Client...
+2025-04-17 12:53:18,114 - __main__ - INFO - Orchestrator attempting MCP initialize to stdio_game_engine server...
+2025-04-17 12:53:48,122 - __main__ - ERROR - Orchestrator timed out during MCP initialize handshake with stdio_game_engine server.
+2025-04-17 12:53:48,127 - __main__ - CRITICAL - Framework failed to run due to unhandled exception: unhandled errors in a TaskGroup (1 sub-exception)
+  + Exception Group Traceback (most recent call last):
+  |   File "/Users/manirashahmadi/ccode/geopolitics-v3.0/diplomacy_agent_framework/core/framework.py", line 505, in <module>
+  |     asyncio.run(orchestrator.run_game())
+  |   File "/Users/manirashahmadi/miniforge3/lib/python3.12/asyncio/runners.py", line 194, in run
+  |     return runner.run(main)
+  |            ^^^^^^^^^^^^^^^^
+  |   File "/Users/manirashahmadi/miniforge3/lib/python3.12/asyncio/runners.py", line 118, in run
+  |     return self._loop.run_until_complete(task)
+  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/Users/manirashahmadi/miniforge3/lib/python3.12/asyncio/base_events.py", line 686, in run_until_complete
+  |     return future.result()
+  |            ^^^^^^^^^^^^^^^
+  |   File "/Users/manirashahmadi/ccode/geopolitics-v3.0/diplomacy_agent_framework/core/framework.py", line 226, in run_game
+  |     await self._initialize_orchestrator_mcp_client()
+  |   File "/Users/manirashahmadi/ccode/geopolitics-v3.0/diplomacy_agent_framework/core/framework.py", line 180, in _initialize_orchestrator_mcp_client
+  |     async with conn_context_manager as streams:
+  |                ^^^^^^^^^^^^^^^^^^^^
+  |   File "/Users/manirashahmadi/miniforge3/lib/python3.12/contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "/Users/manirashahmadi/miniforge3/lib/python3.12/site-packages/mcp/client/stdio/__init__.py", line 167, in stdio_client
+  |     anyio.create_task_group() as tg,
+  |     ^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/Users/manirashahmadi/miniforge3/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 772, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/Users/manirashahmadi/miniforge3/lib/python3.12/site-packages/anyio/streams/memory.py", line 111, in receive
+    |     return self.receive_nowait()
+    |            ^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/manirashahmadi/miniforge3/lib/python3.12/site-packages/anyio/streams/memory.py", line 106, in receive_nowait
+    |     raise WouldBlock
+    | anyio.WouldBlock
+    | 
+    | During handling of the above exception, another exception occurred:
+    | 
+    | Traceback (most recent call last):
+    |   File "/Users/manirashahmadi/miniforge3/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    |     return await fut
+    |            ^^^^^^^^^
+    |   File "/Users/manirashahmadi/miniforge3/lib/python3.12/site-packages/mcp/client/session.py", line 122, in initialize
+    |     result = await self.send_request(
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/manirashahmadi/miniforge3/lib/python3.12/site-packages/mcp/shared/session.py", line 252, in send_request
+    |     response_or_error = await response_stream_reader.receive()
+    |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/manirashahmadi/miniforge3/lib/python3.12/site-packages/anyio/streams/memory.py", line 119, in receive
+    |     await receive_event.wait()
+    |   File "/Users/manirashahmadi/miniforge3/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1774, in wait
+    |     await self._event.wait()
+    |   File "/Users/manirashahmadi/miniforge3/lib/python3.12/asyncio/locks.py", line 212, in wait
+    |     await fut
+    | asyncio.exceptions.CancelledError
+    | 
+    | The above exception was the direct cause of the following exception:
+    | 
+    | Traceback (most recent call last):
+    |   File "/Users/manirashahmadi/ccode/geopolitics-v3.0/diplomacy_agent_framework/core/framework.py", line 192, in _initialize_orchestrator_mcp_client
+    |     await asyncio.wait_for(
+    |   File "/Users/manirashahmadi/miniforge3/lib/python3.12/asyncio/tasks.py", line 519, in wait_for
+    |     async with timeouts.timeout(timeout):
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/Users/manirashahmadi/miniforge3/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    |     raise TimeoutError from exc_val
+    | TimeoutError
+    | 
+    | During handling of the above exception, another exception occurred:
+    | 
+    | Traceback (most recent call last):
+    |   File "/Users/manirashahmadi/miniforge3/lib/python3.12/site-packages/mcp/client/stdio/__init__.py", line 173, in stdio_client
+    |     yield read_stream, write_stream
+    |   File "/Users/manirashahmadi/ccode/geopolitics-v3.0/diplomacy_agent_framework/core/framework.py", line 208, in _initialize_orchestrator_mcp_client
+    |     raise ConnectionError(f"Orchestrator timed out initializing MCP session with {server_id}.")
+    | ConnectionError: Orchestrator timed out initializing MCP session with stdio_game_engine.
+    | 
+    | During handling of the above exception, another exception occurred:
+    | 
+    | Traceback (most recent call last):
+    |   File "/Users/manirashahmadi/miniforge3/lib/python3.12/site-packages/mcp/client/stdio/__init__.py", line 179, in stdio_client
+    |     process.terminate()
+    |   File "/Users/manirashahmadi/miniforge3/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1085, in terminate
+    |     self._process.terminate()
+    |   File "/Users/manirashahmadi/miniforge3/lib/python3.12/asyncio/subprocess.py", line 143, in terminate
+    |     self._transport.terminate()
+    |   File "/Users/manirashahmadi/miniforge3/lib/python3.12/asyncio/base_subprocess.py", line 149, in terminate
+    |     self._check_proc()
+    |   File "/Users/manirashahmadi/miniforge3/lib/python3.12/asyncio/base_subprocess.py", line 142, in _check_proc
+    |     raise ProcessLookupError()
+    | ProcessLookupError
+    +------------------------------------

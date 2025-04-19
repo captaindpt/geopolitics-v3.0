@@ -1,0 +1,15 @@
+Run Log Initialized: 2025-04-18 14:17:31.642323
+Log Directory: logs/run_20250418_141731
+Negotiation Rounds per Phase: 2
+Agents:
+  - AUSTRIA: LLMAgent
+  - ENGLAND: LLMAgent
+  - FRANCE: LLMAgent
+  - GERMANY: LLMAgent
+  - ITALY: LLMAgent
+  - RUSSIA: LLMAgent
+  - TURKEY: LLMAgent
+LLM Config (for summary): {"model": "deepseek/deepseek-r1-zero:free", "temp": 0.7, "max_tokens": 4096}
+[2025-04-18 14:17:31.642] Framework: Consolidated run log initialized.\n[2025-04-18 14:17:31.642] Framework: Initialization complete.\n[2025-04-18 14:17:31.642] 
+=== Framework: Starting Game Run ===\n[2025-04-18 14:17:31.643] 
+--- Framework: Starting Phase S1901M --- (Count: 1) ---\n[2025-04-18 14:17:31.643]     -- Framework: Starting NEGOTIATION_ROUND_1 --\n[2025-04-18 14:17:31.643]     -- Framework: Delivering staged messages --\n[2025-04-18 14:17:31.643]     (No messages staged for delivery)\n[2025-04-18 14:17:31.643]         - Framework: Activating AUSTRIA (LLMAgent)\n

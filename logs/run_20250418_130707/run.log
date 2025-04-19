@@ -1,0 +1,204 @@
+Run Log Initialized: 2025-04-18 13:07:07.922884
+Log Directory: logs/run_20250418_130707
+Negotiation Rounds per Phase: 2
+Agents:
+  - AUSTRIA: LLMAgent
+  - ENGLAND: LLMAgent
+  - FRANCE: LLMAgent
+  - GERMANY: LLMAgent
+  - ITALY: LLMAgent
+  - RUSSIA: LLMAgent
+  - TURKEY: LLMAgent
+LLM Config (for summary): {"model": "deepseek/deepseek-r1-zero:free", "temp": 0.7, "max_tokens": 4096}
+[2025-04-18 13:07:07.923] Framework: Consolidated run log initialized.\n[2025-04-18 13:07:07.923] Framework: Initialization complete.\n[2025-04-18 13:07:07.923] \n=== Framework: Starting Game Run ===\n[2025-04-18 13:07:07.923] \n--- Framework: Starting Phase S1901M --- (Count: 1) ---\n[2025-04-18 13:07:07.923]     -- Framework: Starting NEGOTIATION_ROUND_1 --\n[2025-04-18 13:07:07.923]     -- Framework: Delivering staged messages --\n[2025-04-18 13:07:07.923]     (No messages staged for delivery)\n[2025-04-18 13:07:07.923]         - Framework: Activating AUSTRIA (LLMAgent)\n[2025-04-18 13:07:52.679]         - Framework: Processing actions for AUSTRIA (2 calls)\n[2025-04-18 13:07:52.680]       Action: log_thought, Args: {'thought': 'ERROR: Failed to parse previous LLM response. Raw slice: \\boxed{\n```json\n[\n  '}\n[2025-04-18 13:07:52.680] ERROR: Failed to parse previous LLM response. Raw slice: \boxed{
+```json
+[
+  \n[2025-04-18 13:07:52.680]       Action: finish_negotiation_round, Args: {}\n[2025-04-18 13:07:52.680]         - Framework: Activating ENGLAND (LLMAgent)\n[2025-04-18 13:08:27.618]         - Framework: Processing actions for ENGLAND (2 calls)\n[2025-04-18 13:08:27.619]       Action: log_thought, Args: {'thought': 'ERROR: Failed to parse previous LLM response. Raw slice: \\boxed{```json\n[\n  {'}\n[2025-04-18 13:08:27.619] ERROR: Failed to parse previous LLM response. Raw slice: \boxed{```json
+[
+  {\n[2025-04-18 13:08:27.619]       Action: finish_negotiation_round, Args: {}\n[2025-04-18 13:08:27.619]         - Framework: Activating FRANCE (LLMAgent)\n[2025-04-18 13:09:15.945]         - Framework: Processing actions for FRANCE (2 calls)\n[2025-04-18 13:09:15.950]       Action: log_thought, Args: {'thought': 'ERROR: Failed to parse previous LLM response. Raw slice: \\boxed{\n```json\n[\n  '}\n[2025-04-18 13:09:15.951] ERROR: Failed to parse previous LLM response. Raw slice: \boxed{
+```json
+[
+  \n[2025-04-18 13:09:15.951]       Action: finish_negotiation_round, Args: {}\n[2025-04-18 13:09:15.951]         - Framework: Activating GERMANY (LLMAgent)\n[2025-04-18 13:10:14.717]         - Framework: Processing actions for GERMANY (2 calls)\n[2025-04-18 13:10:14.718]       Action: log_thought, Args: {'thought': 'ERROR: Failed to parse previous LLM response. Raw slice: \\boxed{\n```json\n[\n  '}\n[2025-04-18 13:10:14.718] ERROR: Failed to parse previous LLM response. Raw slice: \boxed{
+```json
+[
+  \n[2025-04-18 13:10:14.718]       Action: finish_negotiation_round, Args: {}\n[2025-04-18 13:10:14.718]         - Framework: Activating ITALY (LLMAgent)\n[2025-04-18 13:10:41.299]         - Framework: Processing actions for ITALY (2 calls)\n[2025-04-18 13:10:41.299]       Action: log_thought, Args: {'thought': 'ERROR: Failed to parse previous LLM response. Raw slice: \\boxed{\n```json\n[\n  '}\n[2025-04-18 13:10:41.299] ERROR: Failed to parse previous LLM response. Raw slice: \boxed{
+```json
+[
+  \n[2025-04-18 13:10:41.299]       Action: finish_negotiation_round, Args: {}\n[2025-04-18 13:10:41.299]         - Framework: Activating RUSSIA (LLMAgent)\n[2025-04-18 13:11:32.785]         - Framework: Processing actions for RUSSIA (2 calls)\n[2025-04-18 13:11:32.785]       Action: log_thought, Args: {'thought': 'ERROR: Failed to parse previous LLM response. Raw slice: \\boxed{[\n  {\n    "to'}\n[2025-04-18 13:11:32.785] ERROR: Failed to parse previous LLM response. Raw slice: \boxed{[
+  {
+    "to\n[2025-04-18 13:11:32.786]       Action: finish_negotiation_round, Args: {}\n[2025-04-18 13:11:32.786]         - Framework: Activating TURKEY (LLMAgent)\n[2025-04-18 13:12:05.506]         - Framework: Processing actions for TURKEY (2 calls)\n[2025-04-18 13:12:05.506]       Action: log_thought, Args: {'thought': 'ERROR: Failed to parse previous LLM response. Raw slice: \\boxed{```json\n[\n  {'}\n[2025-04-18 13:12:05.507] ERROR: Failed to parse previous LLM response. Raw slice: \boxed{```json
+[
+  {\n[2025-04-18 13:12:05.507]       Action: finish_negotiation_round, Args: {}\n[2025-04-18 13:12:05.507]     -- Framework: Starting NEGOTIATION_ROUND_2 --\n[2025-04-18 13:12:05.507]     -- Framework: Delivering staged messages --\n[2025-04-18 13:12:05.508]     (No messages staged for delivery)\n[2025-04-18 13:12:05.508]         - Framework: Activating AUSTRIA (LLMAgent)\n[2025-04-18 13:12:41.015]         - Framework: Processing actions for AUSTRIA (2 calls)\n[2025-04-18 13:12:41.015]       Action: log_thought, Args: {'thought': 'ERROR: Failed to parse previous LLM response. Raw slice: \\boxed{[\n  {\n    "to'}\n[2025-04-18 13:12:41.015] ERROR: Failed to parse previous LLM response. Raw slice: \boxed{[
+  {
+    "to\n[2025-04-18 13:12:41.015]       Action: finish_negotiation_round, Args: {}\n[2025-04-18 13:12:41.015]         - Framework: Activating ENGLAND (LLMAgent)\n[2025-04-18 13:13:14.039]         - Framework: Processing actions for ENGLAND (2 calls)\n[2025-04-18 13:13:14.040]       Action: log_thought, Args: {'thought': 'ERROR: Failed to parse previous LLM response. Raw slice: \\boxed{\n```json\n[\n  '}\n[2025-04-18 13:13:14.040] ERROR: Failed to parse previous LLM response. Raw slice: \boxed{
+```json
+[
+  \n[2025-04-18 13:13:14.040]       Action: finish_negotiation_round, Args: {}\n[2025-04-18 13:13:14.040]         - Framework: Activating FRANCE (LLMAgent)\n[2025-04-18 13:13:59.280]         - Framework: Processing actions for FRANCE (2 calls)\n[2025-04-18 13:13:59.281]       Action: log_thought, Args: {'thought': 'ERROR: Failed to parse previous LLM response. Raw slice: \\boxed{[\n  {\n    "to'}\n[2025-04-18 13:13:59.281] ERROR: Failed to parse previous LLM response. Raw slice: \boxed{[
+  {
+    "to\n[2025-04-18 13:13:59.281]       Action: finish_negotiation_round, Args: {}\n[2025-04-18 13:13:59.281]         - Framework: Activating GERMANY (LLMAgent)\n[2025-04-18 13:14:58.943]         - Framework: Processing actions for GERMANY (2 calls)\n[2025-04-18 13:14:58.944]       Action: log_thought, Args: {'thought': 'ERROR: Failed to parse previous LLM response. Raw slice: \\boxed{[\n  {\n    "to'}\n[2025-04-18 13:14:58.944] ERROR: Failed to parse previous LLM response. Raw slice: \boxed{[
+  {
+    "to\n[2025-04-18 13:14:58.944]       Action: finish_negotiation_round, Args: {}\n[2025-04-18 13:14:58.944]         - Framework: Activating ITALY (LLMAgent)\n[2025-04-18 13:15:56.097]         - Framework: Processing actions for ITALY (2 calls)\n[2025-04-18 13:15:56.098]       Action: log_thought, Args: {'thought': 'ERROR: Failed to parse previous LLM response. Raw slice: \\boxed{```json\n[\n  {'}\n[2025-04-18 13:15:56.098] ERROR: Failed to parse previous LLM response. Raw slice: \boxed{```json
+[
+  {\n[2025-04-18 13:15:56.098]       Action: finish_negotiation_round, Args: {}\n[2025-04-18 13:15:56.098]         - Framework: Activating RUSSIA (LLMAgent)\n[2025-04-18 13:16:35.560]         - Framework: Processing actions for RUSSIA (2 calls)\n[2025-04-18 13:16:35.560]       Action: log_thought, Args: {'thought': 'ERROR: Failed to parse previous LLM response. Raw slice: \\boxed{\n```json\n[\n  '}\n[2025-04-18 13:16:35.560] ERROR: Failed to parse previous LLM response. Raw slice: \boxed{
+```json
+[
+  \n[2025-04-18 13:16:35.561]       Action: finish_negotiation_round, Args: {}\n[2025-04-18 13:16:35.561]         - Framework: Activating TURKEY (LLMAgent)\n[2025-04-18 13:17:18.141]         - Framework: Processing actions for TURKEY (2 calls)\n[2025-04-18 13:17:18.141]       Action: log_thought, Args: {'thought': 'ERROR: Failed to parse previous LLM response. Raw slice: \\boxed{\n```json\n[\n  '}\n[2025-04-18 13:17:18.142] ERROR: Failed to parse previous LLM response. Raw slice: \boxed{
+```json
+[
+  \n[2025-04-18 13:17:18.142]       Action: finish_negotiation_round, Args: {}\n[2025-04-18 13:17:18.142]     -- Framework: Starting ORDER_SUBMISSION --\n[2025-04-18 13:17:18.143]     -- Framework: Delivering staged messages --\n[2025-04-18 13:17:18.143]     (No messages staged for delivery)\n[2025-04-18 13:17:18.143]         - Framework: Activating AUSTRIA for orders (LLMAgent)\n[2025-04-18 13:17:57.076]         - Framework: Processing actions for AUSTRIA (2 calls)\n[2025-04-18 13:17:57.076]       Action: log_thought, Args: {'thought': 'ERROR: Failed to parse previous LLM response. Raw slice: \\boxed{```json\n[\n   '}\n[2025-04-18 13:17:57.077] ERROR: Failed to parse previous LLM response. Raw slice: \boxed{```json
+[
+   \n[2025-04-18 13:17:57.077]       Action: finish_negotiation_round, Args: {}\n[2025-04-18 13:17:57.077]         - Framework: Activating ENGLAND for orders (LLMAgent)\n[2025-04-18 13:18:27.472]         - Framework: Processing actions for ENGLAND (2 calls)\n[2025-04-18 13:18:27.472]       Action: log_thought, Args: {'thought': 'ERROR: Failed to parse previous LLM response. Raw slice: \\boxed{```json\n[\n  {'}\n[2025-04-18 13:18:27.472] ERROR: Failed to parse previous LLM response. Raw slice: \boxed{```json
+[
+  {\n[2025-04-18 13:18:27.472]       Action: finish_negotiation_round, Args: {}\n[2025-04-18 13:18:27.473]         - Framework: Activating FRANCE for orders (LLMAgent)\n[2025-04-18 13:19:00.104]         - Framework: Processing actions for FRANCE (2 calls)\n[2025-04-18 13:19:00.104]       Action: log_thought, Args: {'thought': 'ERROR: Failed to parse previous LLM response. Raw slice: \\boxed{```json\n[\n  {'}\n[2025-04-18 13:19:00.105] ERROR: Failed to parse previous LLM response. Raw slice: \boxed{```json
+[
+  {\n[2025-04-18 13:19:00.105]       Action: finish_negotiation_round, Args: {}\n[2025-04-18 13:19:00.105]         - Framework: Activating GERMANY for orders (LLMAgent)\n[2025-04-18 13:19:26.547]         - Framework: Processing actions for GERMANY (2 calls)\n[2025-04-18 13:19:26.547]       Action: log_thought, Args: {'thought': 'ERROR: Failed to parse previous LLM response. Raw slice: \\boxed{```json\n[\n  {'}\n[2025-04-18 13:19:26.548] ERROR: Failed to parse previous LLM response. Raw slice: \boxed{```json
+[
+  {\n[2025-04-18 13:19:26.548]       Action: finish_negotiation_round, Args: {}\n[2025-04-18 13:19:26.548]         - Framework: Activating ITALY for orders (LLMAgent)\n[2025-04-18 13:20:20.214]         - Framework: Processing actions for ITALY (5 calls)\n[2025-04-18 13:20:20.221]       Action: log_thought, Args: {'thought': 'Reasoning: My units are F NAP, A ROM, and A VEN. A common opening for Italy is to move F NAP to ION for a potential move towards Tunis (a neutral supply center), A ROM to TUS for a potential move towards Piedmont (another neutral supply center), and A VEN can either hold in VEN to make sure Venice is protected or move to TYR to put pressure on Austria. Another common opening is F NAP moving to TYS for a western Mediterranean strategy. However, an aggressive plan might be: F NAP -> ION, A ROM -> TUS, A VEN -> TYR. Final plan: F NAP - ION, A ROM - TUS, A VEN - TYR.'}\n[2025-04-18 13:20:20.221]         Thought: Reasoning: My units are F NAP, A ROM, and A VEN. A common opening for Italy is to move F NAP to ION for a potential move towards Tunis (a neutral supp...\n[2025-04-18 13:20:20.221]       Action: submit_order, Args: {'order_string': 'F NAP - ION'}\n[2025-04-18 13:20:20.221]       Action: submit_order, Args: {'order_string': 'A ROM - TUS'}\n[2025-04-18 13:20:20.221]       Action: submit_order, Args: {'order_string': 'A VEN - TYR'}\n[2025-04-18 13:20:20.221]       Action: finish_orders, Args: {}\n[2025-04-18 13:20:20.221]         - Framework: Activating RUSSIA for orders (LLMAgent)\n[2025-04-18 13:20:49.911]         - Framework: Processing actions for RUSSIA (2 calls)\n[2025-04-18 13:20:49.911]       Action: log_thought, Args: {'thought': 'ERROR: Failed to parse previous LLM response. Raw slice: \\boxed{[\n  {\n    "to'}\n[2025-04-18 13:20:49.911] ERROR: Failed to parse previous LLM response. Raw slice: \boxed{[
+  {
+    "to\n[2025-04-18 13:20:49.911]       Action: finish_negotiation_round, Args: {}\n[2025-04-18 13:20:49.911]         - Framework: Activating TURKEY for orders (LLMAgent)\n[2025-04-18 13:21:20.128]         - Framework: Processing actions for TURKEY (2 calls)\n[2025-04-18 13:21:20.128]       Action: log_thought, Args: {'thought': 'ERROR: Failed to parse previous LLM response. Raw slice: \\boxed{[\n  {\n    "to'}\n[2025-04-18 13:21:20.129] ERROR: Failed to parse previous LLM response. Raw slice: \boxed{[
+  {
+    "to\n[2025-04-18 13:21:20.129]       Action: finish_negotiation_round, Args: {}\n[2025-04-18 13:21:20.129]     -- Framework: Submitting orders for S1901M --\n[2025-04-18 13:21:20.129]     ITALY Orders: ['F NAP - ION', 'A ROM - TUS', 'A VEN - TYR']\n[2025-04-18 13:21:20.133] --- Framework: Phase S1901M Completed ---\n[2025-04-18 13:21:20.133] === Game State After Phase: S1901M ===\n{
+  "centers": {
+    "AUSTRIA": [
+      "BUD",
+      "TRI",
+      "VIE"
+    ],
+    "ENGLAND": [
+      "EDI",
+      "LON",
+      "LVP"
+    ],
+    "FRANCE": [
+      "BRE",
+      "MAR",
+      "PAR"
+    ],
+    "GERMANY": [
+      "BER",
+      "KIE",
+      "MUN"
+    ],
+    "ITALY": [
+      "NAP",
+      "ROM",
+      "VEN"
+    ],
+    "RUSSIA": [
+      "MOS",
+      "SEV",
+      "STP",
+      "WAR"
+    ],
+    "TURKEY": [
+      "ANK",
+      "CON",
+      "SMY"
+    ]
+  },
+  "units": {
+    "AUSTRIA": [
+      [
+        "A",
+        "BUD"
+      ],
+      [
+        "A",
+        "VIE"
+      ],
+      [
+        "F",
+        "TRI"
+      ]
+    ],
+    "ENGLAND": [
+      [
+        "F",
+        "EDI"
+      ],
+      [
+        "F",
+        "LON"
+      ],
+      [
+        "A",
+        "LVP"
+      ]
+    ],
+    "FRANCE": [
+      [
+        "F",
+        "BRE"
+      ],
+      [
+        "A",
+        "MAR"
+      ],
+      [
+        "A",
+        "PAR"
+      ]
+    ],
+    "GERMANY": [
+      [
+        "F",
+        "KIE"
+      ],
+      [
+        "A",
+        "BER"
+      ],
+      [
+        "A",
+        "MUN"
+      ]
+    ],
+    "ITALY": [
+      [
+        "F",
+        "ION"
+      ],
+      [
+        "A",
+        "TUS"
+      ],
+      [
+        "A",
+        "TYR"
+      ]
+    ],
+    "RUSSIA": [
+      [
+        "A",
+        "WAR"
+      ],
+      [
+        "A",
+        "MOS"
+      ],
+      [
+        "F",
+        "SEV"
+      ],
+      [
+        "F",
+        "STP/SC"
+      ]
+    ],
+    "TURKEY": [
+      [
+        "F",
+        "ANK"
+      ],
+      [
+        "A",
+        "CON"
+      ],
+      [
+        "A",
+        "SMY"
+      ]
+    ]
+  },
+  "builds_disbands": {}
+}\n[2025-04-18 13:21:20.133] === End Game State ===\n\n[2025-04-18 13:21:26.455] === History Summary After Phase: S1901M ===\n\boxed{The game of Diplomacy has commenced with the Spring 1901 Movement phase. The seven powers—England, France, Germany, Italy, Austria, Russia, and Turkey—have placed their initial units on the board as per the standard game setup. No specific moves or conflicts have been reported yet, as this is the first phase of the game.}\n[2025-04-18 13:21:26.455] === End History Summary ===\n[2025-04-18 13:21:26.457] \n--- Framework: Starting Phase F1901M --- (Count: 2) ---\n[2025-04-18 13:21:26.459]     -- Framework: Starting NEGOTIATION_ROUND_1 --\n[2025-04-18 13:21:26.460]     -- Framework: Delivering staged messages --\n[2025-04-18 13:21:26.460]     (No messages staged for delivery)\n[2025-04-18 13:21:26.460]         - Framework: Activating AUSTRIA (LLMAgent)\n

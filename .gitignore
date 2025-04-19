@@ -1,1 +1,18 @@
 .env
+
+# Virtual environment
+.venv/
+
+# Python cache/compiled files
+__pycache__/
+*.pyc
+
+# OS-specific files
+.DS_Store
+
+# Specific files to ignore
+diplomacy.ipynb
+diplomacy2.md
+jupyter.md
+notebook_to_md.py
+phase3.md

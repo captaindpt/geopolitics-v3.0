@@ -1,0 +1,25 @@
+
+===== Summary Prompt for Phase: S1901M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+The game has just begun.
+
+PHASE JUST COMPLETED: S1901M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- Game started.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: S1901M ---
+\boxed{The game of Diplomacy has commenced with the Spring 1901 Movement phase. The seven powers—England, France, Germany, Italy, Austria, Russia, and Turkey—have placed their initial units on the board as per the standard game setup. No specific moves or conflicts have been reported yet, as this is the first phase of the game.}
+--- End Summary Result ---

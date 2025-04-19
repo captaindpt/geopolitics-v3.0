@@ -1,0 +1,28 @@
+2025-04-16 02:42:59,442 - __main__ - INFO - Logging initialized. Run logs will be saved in: logs/run_20250416_024259
+2025-04-16 02:42:59,442 - __main__ - INFO - --- Starting Diplomacy Game Simulation (MCP Mode) ---
+2025-04-16 02:42:59,442 - __main__ - INFO - Initializing Orchestrator MCP Client...
+2025-04-16 02:42:59,443 - __main__ - CRITICAL - Framework failed to run due to unhandled exception: 'str' object has no attribute 'command'
+Traceback (most recent call last):
+  File "/Users/manirashahmadi/ccode/geopolitics-v3.0/diplomacy_agent_framework/core/framework.py", line 500, in <module>
+    asyncio.run(orchestrator.run_game())
+  File "/Users/manirashahmadi/miniforge3/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/Users/manirashahmadi/miniforge3/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manirashahmadi/miniforge3/lib/python3.12/asyncio/base_events.py", line 686, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/Users/manirashahmadi/ccode/geopolitics-v3.0/diplomacy_agent_framework/core/framework.py", line 221, in run_game
+    await self._initialize_orchestrator_mcp_client()
+  File "/Users/manirashahmadi/ccode/geopolitics-v3.0/diplomacy_agent_framework/core/framework.py", line 175, in _initialize_orchestrator_mcp_client
+    async with conn_context_manager as streams:
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manirashahmadi/miniforge3/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manirashahmadi/miniforge3/lib/python3.12/site-packages/mcp/client/stdio/__init__.py", line 110, in stdio_client
+    command = _get_executable_command(server.command)
+                                      ^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'command'

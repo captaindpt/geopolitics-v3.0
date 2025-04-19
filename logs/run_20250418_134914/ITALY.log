@@ -1,0 +1,238 @@
+
+===== Turn Start: 2025-04-18 13:52:09.148136 =====
+Phase: S1901M, Interaction: NEGOTIATION_ROUND_1
+
+--- Prompt Sent to LLM ---
+You are ITALY, playing Diplomacy.\n== OVERALL GOAL ==\nAnalyze the situation, communicate if in negotiation, and prepare appropriate actions (messages or orders) according to the phase type and available tools.\n
+== CURRENT GAME SUMMARY ==\nThe game has just begun.\n
+== CURRENT SITUATION ==\nPhase: S1901M\nYour Interaction Step: NEGOTIATION_ROUND_1\n
+== CURRENT GAME STATE ==\n  Your Units: F NAP, A ROM, A VEN\n  All Units: {"AUSTRIA": [["A", "BUD"], ["A", "VIE"], ["F", "TRI"]], "ENGLAND": [["F", "EDI"], ["F", "LON"], ["A", "LVP"]], "FRANCE": [["F", "BRE"], ["A", "MAR"], ["A", "PAR"]], "GERMANY": [["F", "KIE"], ["A", "BER"], ["A", "MUN"]], "ITALY": [["F", "NAP"], ["A", "ROM"], ["A", "VEN"]], "RUSSIA": [["A", "WAR"], ["A", "MOS"], ["F", "SEV"], ["F", "STP/SC"]], "TURKEY": [["F", "ANK"], ["A", "CON"], ["A", "SMY"]]}\n  Supply Centers: {"AUSTRIA": ["BUD", "TRI", "VIE"], "ENGLAND": ["EDI", "LON", "LVP"], "FRANCE": ["BRE", "MAR", "PAR"], "GERMANY": ["BER", "KIE", "MUN"], "ITALY": ["NAP", "ROM", "VEN"], "RUSSIA": ["MOS", "SEV", "STP", "WAR"], "TURKEY": ["ANK", "CON", "SMY"]}\n\n== MESSAGES RECEIVED THIS STEP ==\n  (None)\n\n== INSTRUCTIONS & AVAILABLE TOOLS FOR NEGOTIATION ==\nYour response MUST be a valid JSON list containing allowed tool calls.\nPay EXTREME attention to JSON syntax and required arguments.\n
+Goal: Communicate with other powers, gather info, propose deals, update your memory. Current round: 1\nREQUIRED STEP: Use log_thought FIRST. In its 'thought' argument, provide your reasoning: analyze messages/state, decide communication strategy (who to talk to, what to say/ask), and summarize your planned actions for this round.\n
+Allowed Tools for Negotiation:\n  - log_thought(thought: str) # Use FIRST. Include detailed reasoning and plan for this round.\n  - send_message(recipient: PowerName, message_content: str)\n  - update_memory(key: str, value: any)\n
+IMPORTANT: Your response list MUST end with the finish_negotiation_round tool call:\n  - finish_negotiation_round()\n
+Example Final JSON Structure:\n```json\n[\n  { "tool_name": "log_thought", "arguments": { "thought": "Analysis: France seems friendly based on message. Germany is quiet. Italy has units nearby. Plan: Propose alliance with France against Germany. Ask Italy about intentions. Remember France's offer." } },\n  { "tool_name": "send_message", "arguments": { "recipient": "FRANCE", "message_content": "Let's coordinate against Germany this year? I can support you into MUN if you support me to RUH." } },\n  { "tool_name": "send_message", "arguments": { "recipient": "ITALY", "message_content": "Are your intentions peaceful regarding Tyrolia?" } },\n  { "tool_name": "update_memory", "arguments": { "key": "france_offer_S1901", "value": "Support MUN for support RUH" } },\n  { "tool_name": "finish_negotiation_round", "arguments": {} }\n]\n```
+--- End Prompt ---
+
+--- Raw Response from LLM ---
+\boxed{```json
+[
+  {
+    "tool_name": "log_thought",
+    "arguments": {
+      "thought": "Analysis: As Italy, my initial units are F NAP, A ROM, A VEN. Initial goal is to expand safely into either the Balkans (with Austria's help or against Austria) or towards France or Tunis. Plan: Negotiate an alliance with Austria against Turkey and secure a non-aggression pact until a part of the map is divided. Negotiate a non-aggression pact with France and possibly discuss a joint attack on Germany or Austria (dependent on Austria's response). Keep Turkey engaged with a non-aggression pact while gauging their intentions. Update memory with any major agreements."
+    }
+  },
+  {
+    "tool_name": "send_message",
+    "arguments": {
+      "recipient": "AUSTRIA",
+      "message_content": "Hello, I am interested in forming an alliance against Turkey where we can divide the Balkans. What are your thoughts on a non-aggression pact until we successfully expand into Turkish territories?"
+    }
+  },
+  {
+    "tool_name": "send_message",
+    "arguments": {
+      "recipient": "FRANCE",
+      "message_content": "Hello, I propose a non-aggression pact where I ensure Italy does not move into Piedmont if you do not move into Marseilles. Additionally, would you be interested in coordinating actions against another power such as Germany or Austria?"
+    }
+  },
+  {
+    "tool_name": "send_message",
+    "arguments": {
+      "recipient": "TURKEY",
+      "message_content": "Hello, I propose a non-aggression pact where we avoid conflict until we have both expanded elsewhere. What are your thoughts on such an agreement?"
+    }
+  },
+  {
+    "tool_name": "update_memory",
+    "arguments": {
+      "key": "negotiation_round1_summary",
+      "value": "Proposed alliances and non-aggression pacts with Austria, France, and Turkey. Awaiting responses."
+    }
+  },
+  {
+    "tool_name": "finish_negotiation_round",
+    "arguments": {}
+  }
+]
+```}
+--- End Raw Response ---
+
+===== Turn Start: 2025-04-18 13:56:56.278615 =====
+Phase: S1901M, Interaction: NEGOTIATION_ROUND_2
+
+--- Prompt Sent to LLM ---
+You are ITALY, playing Diplomacy.\n== OVERALL GOAL ==\nAnalyze the situation, communicate if in negotiation, and prepare appropriate actions (messages or orders) according to the phase type and available tools.\n
+== CURRENT GAME SUMMARY ==\nThe game has just begun.\n
+== CURRENT SITUATION ==\nPhase: S1901M\nYour Interaction Step: NEGOTIATION_ROUND_2\n
+== CURRENT GAME STATE ==\n  Your Units: F NAP, A ROM, A VEN\n  All Units: {"AUSTRIA": [["A", "BUD"], ["A", "VIE"], ["F", "TRI"]], "ENGLAND": [["F", "EDI"], ["F", "LON"], ["A", "LVP"]], "FRANCE": [["F", "BRE"], ["A", "MAR"], ["A", "PAR"]], "GERMANY": [["F", "KIE"], ["A", "BER"], ["A", "MUN"]], "ITALY": [["F", "NAP"], ["A", "ROM"], ["A", "VEN"]], "RUSSIA": [["A", "WAR"], ["A", "MOS"], ["F", "SEV"], ["F", "STP/SC"]], "TURKEY": [["F", "ANK"], ["A", "CON"], ["A", "SMY"]]}\n  Supply Centers: {"AUSTRIA": ["BUD", "TRI", "VIE"], "ENGLAND": ["EDI", "LON", "LVP"], "FRANCE": ["BRE", "MAR", "PAR"], "GERMANY": ["BER", "KIE", "MUN"], "ITALY": ["NAP", "ROM", "VEN"], "RUSSIA": ["MOS", "SEV", "STP", "WAR"], "TURKEY": ["ANK", "CON", "SMY"]}\n\n== MESSAGES RECEIVED THIS STEP ==\n  From AUSTRIA: Hello Italy, as a neighboring power, it makes sense for us to establish a peaceful relationship initially. I propose a non-aggression pact where we agree not to move against each other in the first year. Additionally, we could consider a joint strategy against Turkey or Russia. What are your thoughts?\n  From FRANCE: Hello! I propose a non-aggression pact where we agree not to attack each other’s territories. Additionally, perhaps we could discuss a division of the Western Mediterranean where I aim for Spain and Portugal while you focus on the Eastern Mediterranean and the Balkans. What do you think?\n  From GERMANY: Hello Italy, I propose a non-aggression pact where you focus on Austria or France while I focus on Russia or England. What do you think?\n\n== YOUR PRIVATE NOTES (Memory) ==\n{
+  "negotiation_round1_summary": "Proposed alliances and non-aggression pacts with Austria, France, and Turkey. Awaiting responses."
+}\n\n== INSTRUCTIONS & AVAILABLE TOOLS FOR NEGOTIATION ==\nYour response MUST be a valid JSON list containing allowed tool calls.\nPay EXTREME attention to JSON syntax and required arguments.\n
+Goal: Communicate with other powers, gather info, propose deals, update your memory. Current round: 2\nREQUIRED STEP: Use log_thought FIRST. In its 'thought' argument, provide your reasoning: analyze messages/state, decide communication strategy (who to talk to, what to say/ask), and summarize your planned actions for this round.\n
+Allowed Tools for Negotiation:\n  - log_thought(thought: str) # Use FIRST. Include detailed reasoning and plan for this round.\n  - send_message(recipient: PowerName, message_content: str)\n  - update_memory(key: str, value: any)\n
+IMPORTANT: Your response list MUST end with the finish_negotiation_round tool call:\n  - finish_negotiation_round()\n
+Example Final JSON Structure:\n```json\n[\n  { "tool_name": "log_thought", "arguments": { "thought": "Analysis: France seems friendly based on message. Germany is quiet. Italy has units nearby. Plan: Propose alliance with France against Germany. Ask Italy about intentions. Remember France's offer." } },\n  { "tool_name": "send_message", "arguments": { "recipient": "FRANCE", "message_content": "Let's coordinate against Germany this year? I can support you into MUN if you support me to RUH." } },\n  { "tool_name": "send_message", "arguments": { "recipient": "ITALY", "message_content": "Are your intentions peaceful regarding Tyrolia?" } },\n  { "tool_name": "update_memory", "arguments": { "key": "france_offer_S1901", "value": "Support MUN for support RUH" } },\n  { "tool_name": "finish_negotiation_round", "arguments": {} }\n]\n```
+--- End Prompt ---
+
+--- Raw Response from LLM ---
+\boxed{```json
+[
+    {
+        "tool_name": "log_thought",
+        "arguments": {
+            "thought": "Analysis: Austria, France, and Germany all propose non-aggression pacts. Austria suggests a joint strategy against Turkey or Russia, which makes Turkey a natural target for a joint strategy. France suggests a division where they aim for Spain and Portugal while Italy focuses on the Eastern Mediterranean and the Balkans. Germany suggests a non-aggression pact where Italy focuses on Austria or France while Germany focuses on Russia or England. Plan: 1) Agree to a non-aggression pact with Austria and express interest in a joint strategy against Turkey. 2) Agree to a non-aggression pact with France and a division of influence where France focuses on Spain and Portugal while Italy focuses on the Eastern Mediterranean and the Balkans. 3) Agree to a non-aggression pact with Germany, but remain neutral about focusing on Austria or France."
+        }
+    },
+    {
+        "tool_name": "send_message",
+        "arguments": {
+            "recipient": "AUSTRIA",
+            "message_content": "Hello Austria, I agree to a non-aggression pact for the first year. A joint strategy against Turkey sounds like a good plan. How do you propose we go about it?"
+        }
+    },
+    {
+        "tool_name": "send_message",
+        "arguments": {
+            "recipient": "FRANCE",
+            "message_content": "Hello France, I agree to a non-aggression pact where you focus on Spain and Portugal while I aim for the Eastern Mediterranean and the Balkans. Let's ensure our mutual support in the first year."
+        }
+    },
+    {
+        "tool_name": "send_message",
+        "arguments": {
+            "recipient": "GERMANY",
+            "message_content": "Hello Germany, I agree to a non-aggression pact. However, focusing on Austria seems a bit aggressive at the moment. However, I will make sure to keep an eye on France while you focus on Russia or England."
+        }
+    },
+    {
+        "tool_name": "update_memory",
+        "arguments": {
+            "key": "negotiation_round2_summary",
+            "value": "Agreed to non-aggression pacts with Austria, France, and Germany. Discussed joint strategies against Turkey with Austria, division of the Western Mediterranean with France, and a non-aggression pact with Germany."
+        }
+    },
+    {
+        "tool_name": "finish_negotiation_round",
+        "arguments": {}
+    }
+]
+```}
+--- End Raw Response ---
+
+===== Turn Start: 2025-04-18 14:02:19.851281 =====
+Phase: S1901M, Interaction: ORDER_SUBMISSION
+
+--- Prompt Sent to LLM ---
+You are ITALY, playing Diplomacy.\n
+== CURRENT GAME STATE (Focus!) ==\n  Your Units: F NAP, A ROM, A VEN\n  All Units: {"AUSTRIA": [["A", "BUD"], ["A", "VIE"], ["F", "TRI"]], "ENGLAND": [["F", "EDI"], ["F", "LON"], ["A", "LVP"]], "FRANCE": [["F", "BRE"], ["A", "MAR"], ["A", "PAR"]], "GERMANY": [["F", "KIE"], ["A", "BER"], ["A", "MUN"]], "ITALY": [["F", "NAP"], ["A", "ROM"], ["A", "VEN"]], "RUSSIA": [["A", "WAR"], ["A", "MOS"], ["F", "SEV"], ["F", "STP/SC"]], "TURKEY": [["F", "ANK"], ["A", "CON"], ["A", "SMY"]]}\n  Supply Centers: {"AUSTRIA": ["BUD", "TRI", "VIE"], "ENGLAND": ["EDI", "LON", "LVP"], "FRANCE": ["BRE", "MAR", "PAR"], "GERMANY": ["BER", "KIE", "MUN"], "ITALY": ["NAP", "ROM", "VEN"], "RUSSIA": ["MOS", "SEV", "STP", "WAR"], "TURKEY": ["ANK", "CON", "SMY"]}\n\n== CURRENT SITUATION ==\nPhase: S1901M\nYour Interaction Step: ORDER_SUBMISSION\n
+== MESSAGES RECEIVED THIS STEP ==\n  From AUSTRIA: Hello Italy, I agree to a non-aggression pact and an alliance against Turkey where we divide the Balkans. However, I need assurance that you will not make any moves towards my home centers such as TRI or VIE. Let us work together to make a coordinated attack on Turkey.\n  From FRANCE: Hello Italy, I agree to a non-aggression pact where you do not move into Piedmont if I do not move into Burgundy. I am also open to coordinating actions against another power such as Germany or Austria. However, I need a more specific plan for such a coordinated action.\n  From TURKEY: Hello Italy, I agree to a non-aggression pact where we avoid conflict until we have both expanded elsewhere. Let us keep communication open as the game progresses.\n\n== YOUR PRIVATE NOTES (Memory) ==\n{
+  "negotiation_round1_summary": "Proposed alliances and non-aggression pacts with Austria, France, and Turkey. Awaiting responses.",
+  "negotiation_round2_summary": "Agreed to non-aggression pacts with Austria, France, and Germany. Discussed joint strategies against Turkey with Austria, division of the Western Mediterranean with France, and a non-aggression pact with Germany."
+}\n\n== INSTRUCTIONS & AVAILABLE TOOLS FOR ORDER SUBMISSION ==\nYour response MUST be a valid JSON list containing allowed tool calls.\nPay EXTREME attention to JSON syntax and required arguments.\n
+Goal: Submit your final, binding orders for this phase.\n
+Phase Type: MOVEMENT\nCRITICAL: Base your orders *only* on the 'Current Game State: Your Units' listed ABOVE.\nEnsure you issue exactly ONE MOVE, HOLD, or SUPPORT order for EACH of your current units.\nREQUIRED STEP: Use log_thought FIRST. In its 'thought' argument, provide your step-by-step reasoning: explicitly list your current units, evaluate options for each, explain your final decision, and state the planned single order for EACH unit.\n
+Allowed Tools for Order Submission (Movement):\n  - log_thought(thought: str) # Use FIRST. Include detailed reasoning and final plan for ALL units.\n  - submit_order(order_string: str)\n      # Format examples: 'A PAR H', 'F MAO - SPA', 'A MAR S A PAR', 'A PIC S F MAO - SPA'...\n
+Common Tools Available:\n  - update_memory(key: str, value: any)\n
+IMPORTANT: Your response list MUST end with the finish_orders tool call:\n  - finish_orders()\n
+Example Final JSON Structure (Movement):\n```json\n[\n  { "tool_name": "log_thought", "arguments": { "thought": "Reasoning: My units are F MAO, A PIC, A MAR. England might move to ENG, so MAO to SPA is risky but necessary for Iberia. PIC support needed. MAR holds. Final Plan: F MAO -> SPA, A PIC S F MAO -> SPA, A MAR H." } },\n  { "tool_name": "submit_order", "arguments": { "order_string": "F MAO - SPA" } },\n  { "tool_name": "submit_order", "arguments": { "order_string": "A PIC S F MAO - SPA" } },\n  { "tool_name": "submit_order", "arguments": { "order_string": "A MAR H" } },\n  { "tool_name": "finish_orders", "arguments": {} }\n]\n```
+--- End Prompt ---
+
+--- Raw Response from LLM ---
+\boxed{[
+  {
+    "tool_name": "log_thought",
+    "arguments": {
+      "thought": "Reasoning: My units are F NAP, A ROM, and A VEN. Based on the non-aggression pact with France where Italy does not move into Piedmont unless France moves into Burgundy, which they have not done, so A VEN should not move to PIE. A common opening for Italy is to move F NAP to ION to open up options in the Eastern Mediterranean and potentially make a play for TUN or support a Balkan campaign. A ROM could move to APU to prepare for a move to TUN or support another move. A VEN could hold to avoid breaking the non-aggression pact with France and until a more coordinated plan is made with Austria against Turkey. Therefore, the plan is: F NAP to ION, A ROM to APU, and A VEN holds."
+    }
+  },
+  {
+    "tool_name": "submit_order",
+    "arguments": {
+      "order_string": "F NAP - ION"
+    }
+  },
+  {
+    "tool_name": "submit_order",
+    "arguments": {
+      "order_string": "A ROM - APU"
+    }
+  },
+  {
+    "tool_name": "submit_order",
+    "arguments": {
+      "order_string": "A VEN H"
+    }
+  },
+  {
+    "tool_name": "finish_orders",
+    "arguments": {}
+  }
+]}
+--- End Raw Response ---
+
+===== Turn Start: 2025-04-18 14:09:42.381205 =====
+Phase: F1901M, Interaction: NEGOTIATION_ROUND_1
+
+--- Prompt Sent to LLM ---
+You are ITALY, playing Diplomacy.\n== OVERALL GOAL ==\nAnalyze the situation, communicate if in negotiation, and prepare appropriate actions (messages or orders) according to the phase type and available tools.\n
+== CURRENT GAME SUMMARY ==\n\boxed{In Spring 1901, all major powers made their initial moves. The Austrian army in Budapest attempted to move to Galicia but encountered a Russian army from Warsaw that also tried to move there, resulting in a standoff where both armies remained in their original locations. Other notable movements included the English fleet from London moving to the English Channel, the French fleet from Brest moving to the Mid-Atlantic Ocean, the German fleet from Kiel moving to Denmark, the Italian army from Rome moving to Venice, and the Turkish army from Constantinople moving to Bulgaria.}\n
+== CURRENT SITUATION ==\nPhase: F1901M\nYour Interaction Step: NEGOTIATION_ROUND_1\n
+== CURRENT GAME STATE ==\n  Your Units: A VEN, F ION, A APU\n  All Units: {"AUSTRIA": [["A", "BUD"], ["A", "VIE"], ["F", "TRI"]], "ENGLAND": [["F", "NTH"], ["F", "ENG"], ["A", "YOR"]], "FRANCE": [["F", "MAO"], ["A", "SPA"], ["A", "GAS"]], "GERMANY": [["F", "DEN"], ["A", "PRU"], ["A", "RUH"]], "ITALY": [["A", "VEN"], ["F", "ION"], ["A", "APU"]], "RUSSIA": [["A", "WAR"], ["A", "UKR"], ["F", "BLA"], ["F", "BOT"]], "TURKEY": [["F", "ANK"], ["A", "SMY"], ["A", "BUL"]]}\n  Supply Centers: {"AUSTRIA": ["BUD", "TRI", "VIE"], "ENGLAND": ["EDI", "LON", "LVP"], "FRANCE": ["BRE", "MAR", "PAR"], "GERMANY": ["BER", "KIE", "MUN"], "ITALY": ["NAP", "ROM", "VEN"], "RUSSIA": ["MOS", "SEV", "STP", "WAR"], "TURKEY": ["ANK", "CON", "SMY"]}\n\n== MESSAGES RECEIVED THIS STEP ==\n  (None)\n\n== YOUR PRIVATE NOTES (Memory) ==\n{
+  "negotiation_round1_summary": "Proposed alliances and non-aggression pacts with Austria, France, and Turkey. Awaiting responses.",
+  "negotiation_round2_summary": "Agreed to non-aggression pacts with Austria, France, and Germany. Discussed joint strategies against Turkey with Austria, division of the Western Mediterranean with France, and a non-aggression pact with Germany."
+}\n\n== INSTRUCTIONS & AVAILABLE TOOLS FOR NEGOTIATION ==\nYour response MUST be a valid JSON list containing allowed tool calls.\nPay EXTREME attention to JSON syntax and required arguments.\n
+Goal: Communicate with other powers, gather info, propose deals, update your memory. Current round: 1\nREQUIRED STEP: Use log_thought FIRST. In its 'thought' argument, provide your reasoning: analyze messages/state, decide communication strategy (who to talk to, what to say/ask), and summarize your planned actions for this round.\n
+Allowed Tools for Negotiation:\n  - log_thought(thought: str) # Use FIRST. Include detailed reasoning and plan for this round.\n  - send_message(recipient: PowerName, message_content: str)\n  - update_memory(key: str, value: any)\n
+IMPORTANT: Your response list MUST end with the finish_negotiation_round tool call:\n  - finish_negotiation_round()\n
+Example Final JSON Structure:\n```json\n[\n  { "tool_name": "log_thought", "arguments": { "thought": "Analysis: France seems friendly based on message. Germany is quiet. Italy has units nearby. Plan: Propose alliance with France against Germany. Ask Italy about intentions. Remember France's offer." } },\n  { "tool_name": "send_message", "arguments": { "recipient": "FRANCE", "message_content": "Let's coordinate against Germany this year? I can support you into MUN if you support me to RUH." } },\n  { "tool_name": "send_message", "arguments": { "recipient": "ITALY", "message_content": "Are your intentions peaceful regarding Tyrolia?" } },\n  { "tool_name": "update_memory", "arguments": { "key": "france_offer_S1901", "value": "Support MUN for support RUH" } },\n  { "tool_name": "finish_negotiation_round", "arguments": {} }\n]\n```
+--- End Prompt ---
+
+--- Raw Response from LLM ---
+\boxed{[
+  {
+    "tool_name": "log_thought",
+    "arguments": {
+      "thought": "Analysis: In the previous round, I agreed to non-aggression pacts with Austria, France, and Germany. I need to reaffirm these agreements. Additionally, I need to follow up on the joint strategy against Turkey with Austria and discuss the division of the Western Mediterranean with France. I should also check in with Turkey if there was no response previously."
+    }
+  },
+  {
+    "tool_name": "send_message",
+    "arguments": {
+      "recipient": "AUSTRIA",
+      "message_content": "Hello Austria, I want to reaffirm our non-aggression pact and discuss our joint strategy against Turkey. What are your plans for the fall? How can we work together to put pressure on Turkey's position in Bulgaria?"
+    }
+  },
+  {
+    "tool_name": "send_message",
+    "arguments": {
+      "recipient": "FRANCE",
+      "message_content": "Hello France, I want to reaffirm our non-aggression pact. I am also interested in continuing our discussion on the division of the Western Mediterranean. What are your thoughts for the fall season?"
+    }
+  },
+  {
+    "tool_name": "send_message",
+    "arguments": {
+      "recipient": "GERMANY",
+      "message_content": "Hello Germany, I want to reaffirm our non-aggression pact. How are your moves going in Northern Europe?"
+    }
+  },
+  {
+    "tool_name": "send_message",
+    "arguments": {
+      "recipient": "TURKEY",
+      "message_content": "Hello Turkey, I previously proposed a non-aggression pact. Have you had a chance to consider this? I believe a peaceful arrangement could be beneficial for us both."
+    }
+  },
+  {
+    "tool_name": "update_memory",
+    "arguments": {
+      "key": "negotiation_round3_summary",
+      "value": "Reaffirmed non-aggression pacts with Austria, France, and Germany. Followed up on joint strategy against Turkey with Austria. Discussed Western Mediterranean division with France. Followed up on non-aggression pact proposal with Turkey."
+    }
+  },
+  {
+    "tool_name": "finish_negotiation_round",
+    "arguments": {}
+  }
+]}
+--- End Raw Response ---
