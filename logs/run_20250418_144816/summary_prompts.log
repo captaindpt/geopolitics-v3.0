@@ -415,3 +415,1695 @@ Start directly with the summary, no preamble.
 --- Summary Result for Phase: S1905M ---
 \boxed{During the Spring 1905 moves phase, there were no reported changes in supply center ownership. The territorial situation established in Fall 1904, where Turkey captured Bulgaria from Austria while losing Smyrna to Austria, thus resulting in a swap of these two supply centers between the two powers, persisted through this phase. The lack of center changes indicates that no new captures or significant territorial shifts occurred during this phase.}
 --- End Summary Result ---
+
+===== Summary Prompt for Phase: S1905R =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{During the Spring 1905 moves phase, there were no reported changes in supply center ownership. The territorial situation established in Fall 1904, where Turkey captured Bulgaria from Austria while losing Smyrna to Austria, thus resulting in a swap of these two supply centers between the two powers, persisted through this phase. The lack of center changes indicates that no new captures or significant territorial shifts occurred during this phase.}
+
+PHASE JUST COMPLETED: S1905R
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: S1905R ---
+\boxed{During the Spring 1905 retreats phase (S1905R), there were no reported changes in supply center ownership. The territorial situation established in the Spring 1905 moves phase remained the same, indicating that no units were dislodged or required retreats. The game state thus continues to reflect the territorial changes from the Fall 1904 phase where Turkey captured Bulgaria from Austria while losing Smyrna to Austria.}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: F1905M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{During the Spring 1905 retreats phase (S1905R), there were no reported changes in supply center ownership. The territorial situation established in the Spring 1905 moves phase remained the same, indicating that no units were dislodged or required retreats. The game state thus continues to reflect the territorial changes from the Fall 1904 phase where Turkey captured Bulgaria from Austria while losing Smyrna to Austria.}
+
+PHASE JUST COMPLETED: F1905M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: F1905M ---
+\boxed{During the Fall 1905 moves phase (F1905M), there were no reported changes in supply center ownership. The territorial situation thus remains consistent with the state established in the Spring 1905 retreats phase (S1905R), where Turkey had captured Bulgaria from Austria while losing Smyrna to Austria. The game state thus continues to reflect the same distribution of supply centers as previously described.}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: F1905R =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{During the Fall 1905 moves phase (F1905M), there were no reported changes in supply center ownership. The territorial situation thus remains consistent with the state established in the Spring 1905 retreats phase (S1905R), where Turkey had captured Bulgaria from Austria while losing Smyrna to Austria. The game state thus continues to reflect the same distribution of supply centers as previously described.}
+
+PHASE JUST COMPLETED: F1905R
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- GERMANY gained centers: DEN, KIE
+- FRANCE lost centers: HOL (to ENGLAND), KIE (to GERMANY)
+- ENGLAND gained centers: HOL
+- TURKEY gained centers: SMY
+- TURKEY lost centers: BUL (to AUSTRIA), CON (to AUSTRIA), GRE (to ITALY)
+- AUSTRIA gained centers: BUL, CON
+- AUSTRIA lost centers: SMY (to TURKEY)
+- ITALY gained centers: GRE
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: F1905R ---
+\boxed{During the Fall 1905 retreats phase (F1905R), Germany gained control of Denmark and Kiel, thus taking Kiel from France. France also lost Holland to England. Turkey regained Smyrna from Austria but lost Bulgaria and Constantinople to Austria, as well as losing Greece to Italy. Austria thus gained Bulgaria and Constantinople from Turkey while losing Smyrna. Italy made a gain by capturing Greece from Turkey.}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: W1905A =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{During the Fall 1905 retreats phase (F1905R), Germany gained control of Denmark and Kiel, thus taking Kiel from France. France also lost Holland to England. Turkey regained Smyrna from Austria but lost Bulgaria and Constantinople to Austria, as well as losing Greece to Italy. Austria thus gained Bulgaria and Constantinople from Turkey while losing Smyrna. Italy made a gain by capturing Greece from Turkey.}
+
+PHASE JUST COMPLETED: W1905A
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: W1905A ---
+\boxed{During the Winter 1905 adjustment phase (W1905A), no supply centers changed ownership. Based on the previous phase, Germany, England, Austria, and Italy were able to build one unit each due to each gaining a new supply center. Conversely, France had to disband two units due to losing Holland and Kiel, while Turkey needed to disband one unit after a net loss of one supply center.}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: S1906M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{During the Winter 1905 adjustment phase (W1905A), no supply centers changed ownership. Based on the previous phase, Germany, England, Austria, and Italy were able to build one unit each due to each gaining a new supply center. Conversely, France had to disband two units due to losing Holland and Kiel, while Turkey needed to disband one unit after a net loss of one supply center.}
+
+PHASE JUST COMPLETED: S1906M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: S1906M ---
+\boxed{During the Spring 1906 movement phase (S1906M), no supply centers changed ownership, thus maintaining the status quo in terms of territorial gains and losses for all powers involved. The distribution of supply centers remained the same as at the end of the Winter 1905 adjustment phase, where Germany, England, Austria, and Italy had each gained a new supply center previously, while France had lost two centers and Turkey had lost one. The round of military maneuvers did not result in any new captures or losses for any power.}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: F1906M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{During the Spring 1906 movement phase (S1906M), no supply centers changed ownership, thus maintaining the status quo in terms of territorial gains and losses for all powers involved. The distribution of supply centers remained the same as at the end of the Winter 1905 adjustment phase, where Germany, England, Austria, and Italy had each gained a new supply center previously, while France had lost two centers and Turkey had lost one. The round of military maneuvers did not result in any new captures or losses for any power.}
+
+PHASE JUST COMPLETED: F1906M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- FRANCE lost centers: BEL (to ENGLAND)
+- ENGLAND gained centers: BEL
+- TURKEY gained centers: CON
+- TURKEY lost centers: SMY (to ITALY)
+- AUSTRIA lost centers: CON (to TURKEY), SER (to ITALY)
+- ITALY gained centers: SER, SMY
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: F1906M ---
+\boxed{The Fall 1906 movement phase (F1906M) saw significant territorial changes. England captured Belgium from France, thus gaining a new supply center while France lost one. Turkey successfully retook Constantinople from Austria while simultaneously losing Smyrna to Italy. Italy made notable gains by capturing both Smyrna from Turkey and Serbia from Austria. Consequently, England gained one new supply center (Belgium), Italy gained two (Serbia and Smyrna), and Turkey gained one (Constantinople) but also lost one (Smyrna), resulting in a net gain of one center for Turkey. France lost Belgium, and Austria lost both Constantinople and Serbia.}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: W1906A =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{The Fall 1906 movement phase (F1906M) saw significant territorial changes. England captured Belgium from France, thus gaining a new supply center while France lost one. Turkey successfully retook Constantinople from Austria while simultaneously losing Smyrna to Italy. Italy made notable gains by capturing both Smyrna from Turkey and Serbia from Austria. Consequently, England gained one new supply center (Belgium), Italy gained two (Serbia and Smyrna), and Turkey gained one (Constantinople) but also lost one (Smyrna), resulting in a net gain of one center for Turkey. France lost Belgium, and Austria lost both Constantinople and Serbia.}
+
+PHASE JUST COMPLETED: W1906A
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: W1906A ---
+\boxed{The Winter 1906 adjustments phase (W1906A) saw no changes in the ownership of supply centers. The results from the Fall 1906 movement phase thus remained in effect, where England gained Belgium from France, Turkey reclaimed Constantinople from Austria while losing Smyrna to Italy, and Italy captured Smyrna from Turkey and Serbia from Austria. Consequently, England's total supply centers increased by one, Italy gained two new centers, Turkey had a net gain of one center, while France lost one center and Austria lost two centers.}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: S1907M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{The Winter 1906 adjustments phase (W1906A) saw no changes in the ownership of supply centers. The results from the Fall 1906 movement phase thus remained in effect, where England gained Belgium from France, Turkey reclaimed Constantinople from Austria while losing Smyrna to Italy, and Italy captured Smyrna from Turkey and Serbia from Austria. Consequently, England's total supply centers increased by one, Italy gained two new centers, Turkey had a net gain of one center, while France lost one center and Austria lost two centers.}
+
+PHASE JUST COMPLETED: S1907M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: S1907M ---
+\boxed{The Spring 1907 movement phase (S1907M) followed a Winter 1906 adjustments phase that saw no changes in supply center ownership. However, during the Fall 1906 phase, England had captured Belgium from France, Italy had taken Smyrna from Turkey and Serbia from Austria, while Turkey had reclaimed Constantinople from Austria. This resulted in England gaining one additional supply center, Italy gaining two, Turkey having a net gain of one, while France lost one and Austria lost two supply centers. The Spring 1907 movement phase itself did not result in any changes in ownership of supply centers, so the distribution of supply centers remained as it was after the Winter 1906 adjustments phase.}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: F1907M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{The Spring 1907 movement phase (S1907M) followed a Winter 1906 adjustments phase that saw no changes in supply center ownership. However, during the Fall 1906 phase, England had captured Belgium from France, Italy had taken Smyrna from Turkey and Serbia from Austria, while Turkey had reclaimed Constantinople from Austria. This resulted in England gaining one additional supply center, Italy gaining two, Turkey having a net gain of one, while France lost one and Austria lost two supply centers. The Spring 1907 movement phase itself did not result in any changes in ownership of supply centers, so the distribution of supply centers remained as it was after the Winter 1906 adjustments phase.}
+
+PHASE JUST COMPLETED: F1907M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: F1907M ---
+\boxed{The Fall 1907 movement phase did not result in any changes in the ownership of supply centers among the remaining powers (England, Italy, Turkey, France, and Austria). Therefore, the distribution of supply centers remained as follows: England with 12 centers, Italy with 7, Turkey with 3, France with 3, and Austria with 1 center until the next phase, which would be the Winter 1907 adjustments phase where any new captures from the Fall 1907 movement phase would be processed (which in this case, there were none).}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: F1907R =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{The Fall 1907 movement phase did not result in any changes in the ownership of supply centers among the remaining powers (England, Italy, Turkey, France, and Austria). Therefore, the distribution of supply centers remained as follows: England with 12 centers, Italy with 7, Turkey with 3, France with 3, and Austria with 1 center until the next phase, which would be the Winter 1907 adjustments phase where any new captures from the Fall 1907 movement phase would be processed (which in this case, there were none).}
+
+PHASE JUST COMPLETED: F1907R
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- TURKEY gained centers: SMY
+- AUSTRIA gained centers: SER
+- ITALY lost centers: SER (to AUSTRIA), SMY (to TURKEY)
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: F1907R ---
+\boxed{"In the Fall 1907 retreat phase, Turkey successfully retreated a unit to Smyrna, thus regaining control of that supply center and increasing its total to 4 centers. Similarly, Austria managed to retreat a unit to Serbia, which allowed it to regain control of that supply center and increase its total to 2 centers. Consequently, Italy lost control of both Serbia and Smyrna, which reduced its total number of supply centers to 5."}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: W1907A =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{"In the Fall 1907 retreat phase, Turkey successfully retreated a unit to Smyrna, thus regaining control of that supply center and increasing its total to 4 centers. Similarly, Austria managed to retreat a unit to Serbia, which allowed it to regain control of that supply center and increase its total to 2 centers. Consequently, Italy lost control of both Serbia and Smyrna, which reduced its total number of supply centers to 5."}
+
+PHASE JUST COMPLETED: W1907A
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: W1907A ---
+\boxed{"During the Winter of 1907, no supply centers changed ownership. As a result, the powers maintained their current supply center totals: Turkey now holds 4 centers, Austria has 2 centers, and Italy retains 5 centers. The distribution of units should be adjusted to match the number of supply centers each power controls, but no specific details on unit builds or disbands are provided here."}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: S1908M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{"During the Winter of 1907, no supply centers changed ownership. As a result, the powers maintained their current supply center totals: Turkey now holds 4 centers, Austria has 2 centers, and Italy retains 5 centers. The distribution of units should be adjusted to match the number of supply centers each power controls, but no specific details on unit builds or disbands are provided here."}
+
+PHASE JUST COMPLETED: S1908M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: S1908M ---
+\boxed{"During the Spring of 1908, no supply centers changed ownership. Thus, the distribution of supply centers remains the same as it was at the end of the Winter of 1907: Turkey still holds 4 supply centers, Austria has 2 supply centers, and Italy retains 5 supply centers. The phase did not result in any significant changes to the current state of the game."}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: F1908M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{"During the Spring of 1908, no supply centers changed ownership. Thus, the distribution of supply centers remains the same as it was at the end of the Winter of 1907: Turkey still holds 4 supply centers, Austria has 2 supply centers, and Italy retains 5 supply centers. The phase did not result in any significant changes to the current state of the game."}
+
+PHASE JUST COMPLETED: F1908M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: F1908M ---
+\boxed{"During the Fall of 1908, no supply centers changed ownership. Thus, the distribution of supply centers remains the same as it was at the end of the Spring of 1908, which was identical to the distribution at the end of the Winter of 1907. Thus, Turkey still holds 4 supply centers, Austria has 2 supply centers, and Italy retains 5 supply centers. The phase did not result in any significant changes to the current state of the game, and thus the game continues."}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: F1908R =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{"During the Fall of 1908, no supply centers changed ownership. Thus, the distribution of supply centers remains the same as it was at the end of the Spring of 1908, which was identical to the distribution at the end of the Winter of 1907. Thus, Turkey still holds 4 supply centers, Austria has 2 supply centers, and Italy retains 5 supply centers. The phase did not result in any significant changes to the current state of the game, and thus the game continues."}
+
+PHASE JUST COMPLETED: F1908R
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- TURKEY gained centers: BUL
+- AUSTRIA lost centers: BUL (to TURKEY)
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: F1908R ---
+\boxed{In the Fall of 1908 Retreats phase, Turkey successfully gained control of the supply center in Bulgaria from Austria. Consequently, Turkey now holds 5 supply centers (up from 4), while Austria's number of supply centers has been reduced to one (down from 2). Italy still retains their 5 supply centers from before. This marks a significant shift in the balance of power between Turkey and Austria, further solidifying Turkey's position while weakening Austria.}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: W1908A =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{In the Fall of 1908 Retreats phase, Turkey successfully gained control of the supply center in Bulgaria from Austria. Consequently, Turkey now holds 5 supply centers (up from 4), while Austria's number of supply centers has been reduced to one (down from 2). Italy still retains their 5 supply centers from before. This marks a significant shift in the balance of power between Turkey and Austria, further solidifying Turkey's position while weakening Austria.}
+
+PHASE JUST COMPLETED: W1908A
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: W1908A ---
+\boxed{"During the Winter of 1908 Adjustment phase, Turkey was eligible to build one new unit due to their increased total of 5 supply centers. Austria, now holding only one supply center, had to disband one of their units. Italy maintained their 5 supply centers and thus likely made no unit adjustments. No supply centers changed hands during this phase."}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: S1909M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{"During the Winter of 1908 Adjustment phase, Turkey was eligible to build one new unit due to their increased total of 5 supply centers. Austria, now holding only one supply center, had to disband one of their units. Italy maintained their 5 supply centers and thus likely made no unit adjustments. No supply centers changed hands during this phase."}
+
+PHASE JUST COMPLETED: S1909M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: S1909M ---
+\boxed{"During the Spring of 1909 Movement phase, no supply centers changed hands. The status quo in terms of supply center distribution among the powers remained the same as it was after the Winter of 1908 Adjustment phase."}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: S1909R =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{"During the Spring of 1909 Movement phase, no supply centers changed hands. The status quo in terms of supply center distribution among the powers remained the same as it was after the Winter of 1908 Adjustment phase."}
+
+PHASE JUST COMPLETED: S1909R
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: S1909R ---
+\boxed{"During the Spring of 1909 Retreat phase, no retreats were required because no units were dislodged in the Spring of 1909 Movement phase. The game state thus remains unchanged from the previous phase, with all units staying in their current positions until the next phase, which is the Fall of 1909 Movement phase."}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: F1909M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{"During the Spring of 1909 Retreat phase, no retreats were required because no units were dislodged in the Spring of 1909 Movement phase. The game state thus remains unchanged from the previous phase, with all units staying in their current positions until the next phase, which is the Fall of 1909 Movement phase."}
+
+PHASE JUST COMPLETED: F1909M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- TURKEY lost centers: BUL (to AUSTRIA)
+- AUSTRIA gained centers: BUL
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: F1909M ---
+\boxed{"In the Fall of 1909 Movement phase, Austria successfully captured Bulgaria from Turkey. This resulted in Turkey losing control of Bulgaria while Austria gained control of this strategic center."}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: W1909A =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{"In the Fall of 1909 Movement phase, Austria successfully captured Bulgaria from Turkey. This resulted in Turkey losing control of Bulgaria while Austria gained control of this strategic center."}
+
+PHASE JUST COMPLETED: W1909A
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: W1909A ---
+\boxed{"In the Fall of 1909 Movement phase, Austria successfully captured Bulgaria from Turkey. This resulted in Turkey losing control of Bulgaria while Austria gained control of this strategic center."}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: S1910M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{"In the Fall of 1909 Movement phase, Austria successfully captured Bulgaria from Turkey. This resulted in Turkey losing control of Bulgaria while Austria gained control of this strategic center."}
+
+PHASE JUST COMPLETED: S1910M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: S1910M ---
+\boxed{"In the Spring of 1910, the diplomatic and military landscape remained largely stable as no supply centers changed hands. Austria continued to hold Bulgaria, which it had captured from Turkey in the Fall of 1909, thus maintaining its strategic advantage in the region. The overall distribution of supply centers remained unchanged during this phase."}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: F1910M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{"In the Spring of 1910, the diplomatic and military landscape remained largely stable as no supply centers changed hands. Austria continued to hold Bulgaria, which it had captured from Turkey in the Fall of 1909, thus maintaining its strategic advantage in the region. The overall distribution of supply centers remained unchanged during this phase."}
+
+PHASE JUST COMPLETED: F1910M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- GERMANY lost centers: DEN (to ENGLAND)
+- ENGLAND gained centers: DEN
+- TURKEY lost centers: ANK (to RUSSIA)
+- RUSSIA gained centers: ANK
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: F1910M ---
+\boxed{"In the Fall of 1910, England successfully captured Denmark from Germany, which marked a significant advance for England in the Baltic region. Simultaneously, Russia made a strategic gain by capturing Ankara from Turkey, extending its influence further into what was once a stronghold of Turkish power. However, Austria maintained its hold on Bulgaria, which it had acquired from Turkey in the Fall of 1909, preserving its strategic position in the Balkans."}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: W1910A =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{"In the Fall of 1910, England successfully captured Denmark from Germany, which marked a significant advance for England in the Baltic region. Simultaneously, Russia made a strategic gain by capturing Ankara from Turkey, extending its influence further into what was once a stronghold of Turkish power. However, Austria maintained its hold on Bulgaria, which it had acquired from Turkey in the Fall of 1909, preserving its strategic position in the Balkans."}
+
+PHASE JUST COMPLETED: W1910A
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: W1910A ---
+\boxed{"During the Winter of 1910, no new changes in center ownership occurred. England kept its hold on Denmark, which it had captured from Germany in the Fall of 1910. Russia retained control of Ankara, which it had taken from Turkey in that same Fall phase. Austria continued to hold Bulgaria, a territory it had acquired from Turkey in the Fall of 1909. This phase thus appears to be a period of consolidation for the major powers involved."}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: S1911M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{"During the Winter of 1910, no new changes in center ownership occurred. England kept its hold on Denmark, which it had captured from Germany in the Fall of 1910. Russia retained control of Ankara, which it had taken from Turkey in that same Fall phase. Austria continued to hold Bulgaria, a territory it had acquired from Turkey in the Fall of 1909. This phase thus appears to be a period of consolidation for the major powers involved."}
+
+PHASE JUST COMPLETED: S1911M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: S1911M ---
+\boxed{"During the Spring of 1911, no new changes in center ownership occurred. England maintained its hold on Denmark, which it had captured from Germany in the Fall of 1910. Russia continued to control Ankara, which it had taken from Turkey in the Fall of 1910. Austria still held Bulgaria, a territory it had acquired from Turkey in the Fall of 1909. This phase thus appears to be another period of consolidation for the major powers involved."}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: F1911M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{"During the Spring of 1911, no new changes in center ownership occurred. England maintained its hold on Denmark, which it had captured from Germany in the Fall of 1910. Russia continued to control Ankara, which it had taken from Turkey in the Fall of 1910. Austria still held Bulgaria, a territory it had acquired from Turkey in the Fall of 1909. This phase thus appears to be another period of consolidation for the major powers involved."}
+
+PHASE JUST COMPLETED: F1911M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- GERMANY gained centers: BEL
+- ENGLAND lost centers: BEL (to GERMANY)
+- TURKEY lost centers: CON (to RUSSIA)
+- RUSSIA gained centers: CON
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: F1911M ---
+\boxed{"In the Fall of 1911, Germany successfully captured Belgium from England, thus increasing its center count while England lost a center. Simultaneously, Russia expanded its control by capturing Constantinople from Turkey, which resulted in Turkey losing another center. This phase thus marks a significant shift where Germany made a territorial gain at the expense of England, while Russia continued its expansion into what was once Turkish territory."}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: W1911A =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{"In the Fall of 1911, Germany successfully captured Belgium from England, thus increasing its center count while England lost a center. Simultaneously, Russia expanded its control by capturing Constantinople from Turkey, which resulted in Turkey losing another center. This phase thus marks a significant shift where Germany made a territorial gain at the expense of England, while Russia continued its expansion into what was once Turkish territory."}
+
+PHASE JUST COMPLETED: W1911A
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: W1911A ---
+\boxed{"Following the Fall of 1911, where Germany captured Belgium from England and Russia took Constantinople from Turkey, the Winter of 1911 did not see any changes in center ownership. Thus, the distribution of supply centers stayed the same as it was at the end of Fall 1911."}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: S1912M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{"Following the Fall of 1911, where Germany captured Belgium from England and Russia took Constantinople from Turkey, the Winter of 1911 did not see any changes in center ownership. Thus, the distribution of supply centers stayed the same as it was at the end of Fall 1911."}
+
+PHASE JUST COMPLETED: S1912M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: S1912M ---
+\boxed{"During the Spring of 1912, the geopolitical landscape remained stable as no supply centers changed hands. The distribution of supply centers thus remained the same as it was at the end of Fall 1911, where Germany had captured Belgium from England and Russia had taken Constantinople from Turkey."}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: F1912M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{"During the Spring of 1912, the geopolitical landscape remained stable as no supply centers changed hands. The distribution of supply centers thus remained the same as it was at the end of Fall 1911, where Germany had captured Belgium from England and Russia had taken Constantinople from Turkey."}
+
+PHASE JUST COMPLETED: F1912M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: F1912M ---
+\boxed{"During the Fall of 1912, no supply centers changed hands. The distribution of supply centers thus remained the same as it had been since the end of Fall 1911, when Germany captured Belgium from England and Russia took Constantinople from Turkey."}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: F1912R =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{"During the Fall of 1912, no supply centers changed hands. The distribution of supply centers thus remained the same as it had been since the end of Fall 1911, when Germany captured Belgium from England and Russia took Constantinople from Turkey."}
+
+PHASE JUST COMPLETED: F1912R
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- GERMANY lost centers: BEL (to ENGLAND)
+- FRANCE gained centers: ROM
+- ENGLAND gained centers: BEL
+- ITALY lost centers: ROM (to FRANCE)
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: F1912R ---
+\boxed{"During the Fall 1912 Retreats phase, England successfully recaptured Belgium from Germany, which had originally taken it from England in Fall 1911. Additionally, France made a significant gain by capturing Rome from Italy. As a result, Germany lost Belgium while England gained it, and France gained Rome while Italy lost it."}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: W1912A =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{"During the Fall 1912 Retreats phase, England successfully recaptured Belgium from Germany, which had originally taken it from England in Fall 1911. Additionally, France made a significant gain by capturing Rome from Italy. As a result, Germany lost Belgium while England gained it, and France gained Rome while Italy lost it."}
+
+PHASE JUST COMPLETED: W1912A
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: W1912A ---
+\boxed{"During the Winter 1912 Adjustment phase, England should gain one unit due to its recapture of Belgium from Germany, while Germany should lose one unit because of its loss of Belgium. Similarly, France should gain one unit because it captured Rome from Italy, while Italy should lose one unit due to its loss of Rome. However, no centers changed hands specifically during this phase."}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: S1913M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{"During the Winter 1912 Adjustment phase, England should gain one unit due to its recapture of Belgium from Germany, while Germany should lose one unit because of its loss of Belgium. Similarly, France should gain one unit because it captured Rome from Italy, while Italy should lose one unit due to its loss of Rome. However, no centers changed hands specifically during this phase."}
+
+PHASE JUST COMPLETED: S1913M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: S1913M ---
+\boxed{"During the Spring 1913 Movement phase, no centers changed ownership. The territorial control remained stable compared to the previous phase, with England still holding Belgium and France still holding Rome. The overall power distribution among the major powers remained the same as it was at the end of the Winter 1912 Adjustment phase."}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: F1913M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{"During the Spring 1913 Movement phase, no centers changed ownership. The territorial control remained stable compared to the previous phase, with England still holding Belgium and France still holding Rome. The overall power distribution among the major powers remained the same as it was at the end of the Winter 1912 Adjustment phase."}
+
+PHASE JUST COMPLETED: F1913M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: F1913M ---
+\boxed{"During the Fall 1913 Movement phase, once again, no centers changed ownership. The territorial control remained stable compared to the previous Spring 1913 Movement phase, with England still holding Belgium and France still holding Rome. The overall power distribution among the major powers remained the same as it was previously."}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: F1913R =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{"During the Fall 1913 Movement phase, once again, no centers changed ownership. The territorial control remained stable compared to the previous Spring 1913 Movement phase, with England still holding Belgium and France still holding Rome. The overall power distribution among the major powers remained the same as it was previously."}
+
+PHASE JUST COMPLETED: F1913R
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- FRANCE gained centers: NAP
+- AUSTRIA gained centers: GRE, VIE
+- ITALY lost centers: GRE (to AUSTRIA), NAP (to FRANCE), VIE (to AUSTRIA)
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: F1913R ---
+\boxed{"During the Fall 1913 Retreat phase, significant changes in territorial control occurred. France successfully captured Naples (NAP) from Italy. Concurrently, Austria made significant gains by capturing both Greece (GRE) and Vienna (VIE) from Italy. These movements indicate a substantial weakening of Italy's position in the game, as it lost three supply centers (GRE, NAP, and VIE) to France and Austria combined."}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: W1913A =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{"During the Fall 1913 Retreat phase, significant changes in territorial control occurred. France successfully captured Naples (NAP) from Italy. Concurrently, Austria made significant gains by capturing both Greece (GRE) and Vienna (VIE) from Italy. These movements indicate a substantial weakening of Italy's position in the game, as it lost three supply centers (GRE, NAP, and VIE) to France and Austria combined."}
+
+PHASE JUST COMPLETED: W1913A
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: W1913A ---
+\boxed{"During the Winter 1913 Adjustment phase (W1913A), no supply centers changed ownership. The distribution of supply centers remained as it was at the end of the Fall 1913 Retreat phase, where France had captured Naples (NAP) from Italy, and Austria had captured both Greece (GRE) and Vienna (VIE) from Italy. This phase thus maintained the status quo in terms of supply center distribution."}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: S1914M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{"During the Winter 1913 Adjustment phase (W1913A), no supply centers changed ownership. The distribution of supply centers remained as it was at the end of the Fall 1913 Retreat phase, where France had captured Naples (NAP) from Italy, and Austria had captured both Greece (GRE) and Vienna (VIE) from Italy. This phase thus maintained the status quo in terms of supply center distribution."}
+
+PHASE JUST COMPLETED: S1914M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: S1914M ---
+\boxed{"During the Spring 1914 Movement phase (S1914M), no supply centers changed ownership. The distribution of supply centers thus remained the same as it was after the Winter 1913 Adjustment phase (W1913A), where France had captured Naples (NAP) from Italy, and Austria had captured both Greece (GRE) and Vienna (VIE) from Italy. The status quo in terms of supply center distribution was maintained once again."}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: S1914R =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{"During the Spring 1914 Movement phase (S1914M), no supply centers changed ownership. The distribution of supply centers thus remained the same as it was after the Winter 1913 Adjustment phase (W1913A), where France had captured Naples (NAP) from Italy, and Austria had captured both Greece (GRE) and Vienna (VIE) from Italy. The status quo in terms of supply center distribution was maintained once again."}
+
+PHASE JUST COMPLETED: S1914R
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: S1914R ---
+\boxed{"During the Spring 1914 Movement phase (S1914M), no supply centers changed ownership. The distribution of supply centers thus remained the same as it was after the Winter 1913 Adjustment phase (W1913A), where France had captured Naples (NAP) from Italy, and Austria had captured both Greece (GRE) and Vienna (VIE) from Italy. The status quo in terms of supply center distribution was maintained once again."}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: F1914M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{"During the Spring 1914 Movement phase (S1914M), no supply centers changed ownership. The distribution of supply centers thus remained the same as it was after the Winter 1913 Adjustment phase (W1913A), where France had captured Naples (NAP) from Italy, and Austria had captured both Greece (GRE) and Vienna (VIE) from Italy. The status quo in terms of supply center distribution was maintained once again."}
+
+PHASE JUST COMPLETED: F1914M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- AUSTRIA gained centers: TRI
+- ITALY lost centers: TRI (to AUSTRIA)
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: F1914M ---
+\boxed{"During the Fall 1914 Movement phase (F1914M), Austria successfully captured Trieste (TRI) from Italy. This action resulted in Austria gaining an additional supply center while Italy lost one. The distribution of supply centers now reflects Austria's gain of Trieste, which was previously under Italian control."}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: W1914A =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{"During the Fall 1914 Movement phase (F1914M), Austria successfully captured Trieste (TRI) from Italy. This action resulted in Austria gaining an additional supply center while Italy lost one. The distribution of supply centers now reflects Austria's gain of Trieste, which was previously under Italian control."}
+
+PHASE JUST COMPLETED: W1914A
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: W1914A ---
+\boxed{"In the Winter 1914 Adjustment phase (W1914A), no supply centers changed hands. Consequently, any unit adjustments made by the powers would be based on the supply center distribution from the end of the Fall 1914 Movement phase where Austria successfully captured Trieste from Italy, thus increasing Austria's supply center count while decreasing Italy's. The specific unit builds or disbands for this phase are not specified here, but the ownership of supply centers remains unchanged."}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: S1915M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{"In the Winter 1914 Adjustment phase (W1914A), no supply centers changed hands. Consequently, any unit adjustments made by the powers would be based on the supply center distribution from the end of the Fall 1914 Movement phase where Austria successfully captured Trieste from Italy, thus increasing Austria's supply center count while decreasing Italy's. The specific unit builds or disbands for this phase are not specified here, but the ownership of supply centers remains unchanged."}
+
+PHASE JUST COMPLETED: S1915M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: S1915M ---
+\boxed{"In the Spring 1915 Movement phase (S1915M), no supply centers changed hands. The territorial control thus remained the same as it was after the Fall 1914 Movement phase, where Austria had captured Trieste from Italy. The phase passed without any significant changes in the ownership of supply centers."}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: S1915R =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{"In the Spring 1915 Movement phase (S1915M), no supply centers changed hands. The territorial control thus remained the same as it was after the Fall 1914 Movement phase, where Austria had captured Trieste from Italy. The phase passed without any significant changes in the ownership of supply centers."}
+
+PHASE JUST COMPLETED: S1915R
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: S1915R ---
+\boxed{"In the Spring 1915 Movement phase (S1915M), no supply centers changed hands. The territorial control thus remained the same as it was after the Fall 1914 Movement phase, where Austria had captured Trieste from Italy. The phase passed without any significant changes in the ownership of supply centers."}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: F1915M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{"In the Spring 1915 Movement phase (S1915M), no supply centers changed hands. The territorial control thus remained the same as it was after the Fall 1914 Movement phase, where Austria had captured Trieste from Italy. The phase passed without any significant changes in the ownership of supply centers."}
+
+PHASE JUST COMPLETED: F1915M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: F1915M ---
+\boxed{"The Fall 1915 Movement phase (F1915M) also did not result in any changes in the ownership of supply centers. The territorial control thus remained the same as it was after the Fall 1914 Movement phase where Austria had captured Trieste from Italy. The phase passed without any significant changes in the ownership of supply centers."}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: F1915R =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{"The Fall 1915 Movement phase (F1915M) also did not result in any changes in the ownership of supply centers. The territorial control thus remained the same as it was after the Fall 1914 Movement phase where Austria had captured Trieste from Italy. The phase passed without any significant changes in the ownership of supply centers."}
+
+PHASE JUST COMPLETED: F1915R
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- FRANCE lost centers: BRE (to ENGLAND)
+- ENGLAND gained centers: BRE
+- TURKEY lost centers: SMY (to RUSSIA)
+- RUSSIA gained centers: SMY
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: F1915R ---
+\boxed{"In the Fall 1915 Retreat phase (F1915R), England captured Brest (BRE) from France, thus gaining control of that supply center. Simultaneously, Russia captured Smyrna (SMY) from Turkey, which also resulted in a transfer of that supply center to Russian control. These changes indicate a significant realignment in the power dynamics among the involved powers."}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: W1915A =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{"In the Fall 1915 Retreat phase (F1915R), England captured Brest (BRE) from France, thus gaining control of that supply center. Simultaneously, Russia captured Smyrna (SMY) from Turkey, which also resulted in a transfer of that supply center to Russian control. These changes indicate a significant realignment in the power dynamics among the involved powers."}
+
+PHASE JUST COMPLETED: W1915A
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: W1915A ---
+\boxed{"In the Winter 1915 Adjustment phase (W1915A), there were no changes in the ownership of supply centers. England retained control of Brest (BRE) which it had captured from France in the previous phase, while Russia continued to hold Smyrna (SMY) which it had taken from Turkey. The lack of new center captures indicates a period of consolidation where the powers focused on reinforcing their current positions rather than expanding their territories."}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: S1916M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{"In the Winter 1915 Adjustment phase (W1915A), there were no changes in the ownership of supply centers. England retained control of Brest (BRE) which it had captured from France in the previous phase, while Russia continued to hold Smyrna (SMY) which it had taken from Turkey. The lack of new center captures indicates a period of consolidation where the powers focused on reinforcing their current positions rather than expanding their territories."}
+
+PHASE JUST COMPLETED: S1916M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: S1916M ---
+\boxed{"During the Spring 1916 Movement phase (S1916M), there were no changes in the ownership of supply centers. This phase continues the trend of consolidation observed in the previous Winter 1915 Adjustment phase, where the major powers appear to be focusing on strategic positioning and defense rather than making new territorial gains. The lack of new center captures suggests that the powers may be maneuvering their units in preparation for future engagements or are in a stalemate where no significant advances were made."}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: F1916M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{"During the Spring 1916 Movement phase (S1916M), there were no changes in the ownership of supply centers. This phase continues the trend of consolidation observed in the previous Winter 1915 Adjustment phase, where the major powers appear to be focusing on strategic positioning and defense rather than making new territorial gains. The lack of new center captures suggests that the powers may be maneuvering their units in preparation for future engagements or are in a stalemate where no significant advances were made."}
+
+PHASE JUST COMPLETED: F1916M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- GERMANY gained centers: HOL
+- GERMANY lost centers: WAR (to RUSSIA)
+- ENGLAND lost centers: HOL (to GERMANY)
+- RUSSIA gained centers: WAR
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: F1916M ---
+\boxed{During the Fall 1916 Movement phase (F1916M), Germany captured Holland from England, thus losing Warsaw to Russia in the same phase. This resulted in Germany gaining one supply center (Holland) while losing another (Warsaw) to Russia. England, on the other hand, lost control of Holland to Germany. The phase thus saw a territorial exchange where Germany swapped Warsaw for Holland, while Russia successfully gained Warsaw from Germany.}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: W1916A =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{During the Fall 1916 Movement phase (F1916M), Germany captured Holland from England, thus losing Warsaw to Russia in the same phase. This resulted in Germany gaining one supply center (Holland) while losing another (Warsaw) to Russia. England, on the other hand, lost control of Holland to Germany. The phase thus saw a territorial exchange where Germany swapped Warsaw for Holland, while Russia successfully gained Warsaw from Germany.}
+
+PHASE JUST COMPLETED: W1916A
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: W1916A ---
+\boxed{During the Winter 1916 Adjustment phase (W1916A), no supply centers changed ownership. The territorial changes from the Fall 1916 Movement phase (F1916M) were thus finalized, with Germany now holding Holland (gained from England) while losing Warsaw to Russia. Consequently, Germany's total number of supply centers remained the same, while England lost one center (Holland) and Russia gained one center (Warsaw).}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: S1917M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{During the Winter 1916 Adjustment phase (W1916A), no supply centers changed ownership. The territorial changes from the Fall 1916 Movement phase (F1916M) were thus finalized, with Germany now holding Holland (gained from England) while losing Warsaw to Russia. Consequently, Germany's total number of supply centers remained the same, while England lost one center (Holland) and Russia gained one center (Warsaw).}
+
+PHASE JUST COMPLETED: S1917M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: S1917M ---
+\boxed{The Spring 1917 Movement phase (S1917M) did not result in any changes in supply center ownership. The distribution of supply centers thus remains the same as it was after the Winter 1916 Adjustment phase (W1916A), where Germany gained Holland from England while losing Warsaw to Russia. Consequently, Germany's total number of supply centers remained the same, while England lost one center (Holland) and Russia gained one center (Warsaw).}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: S1917R =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{The Spring 1917 Movement phase (S1917M) did not result in any changes in supply center ownership. The distribution of supply centers thus remains the same as it was after the Winter 1916 Adjustment phase (W1916A), where Germany gained Holland from England while losing Warsaw to Russia. Consequently, Germany's total number of supply centers remained the same, while England lost one center (Holland) and Russia gained one center (Warsaw).}
+
+PHASE JUST COMPLETED: S1917R
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: S1917R ---
+\boxed{During the Spring 1917 Retreat phase (S1917R), no supply centers changed hands. The distribution of supply centers thus remains the same as it was after the Winter 1916 Adjustment phase where Germany gained Holland from England while losing Warsaw to Russia. Consequently, Germany's total number of supply centers remained the same, while England lost one center (Holland) and Russia gained one center (Warsaw). The retreat phase did not result in any new unit movements or dislodgments, thus maintaining the status quo established in the previous movement phase.}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: F1917M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{During the Spring 1917 Retreat phase (S1917R), no supply centers changed hands. The distribution of supply centers thus remains the same as it was after the Winter 1916 Adjustment phase where Germany gained Holland from England while losing Warsaw to Russia. Consequently, Germany's total number of supply centers remained the same, while England lost one center (Holland) and Russia gained one center (Warsaw). The retreat phase did not result in any new unit movements or dislodgments, thus maintaining the status quo established in the previous movement phase.}
+
+PHASE JUST COMPLETED: F1917M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- GERMANY lost centers: SWE (to ENGLAND)
+- FRANCE lost centers: ROM (to ITALY)
+- ENGLAND gained centers: SWE
+- AUSTRIA gained centers: VEN
+- ITALY gained centers: ROM
+- ITALY lost centers: VEN (to AUSTRIA)
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: F1917M ---
+\boxed{During the Fall 1917 Movement phase (F1917M), several significant changes occurred in the distribution of supply centers. Germany lost Sweden to England, which now controls that center. France lost Rome to Italy, which now controls that center. However, Italy lost Venice to Austria, which now controls that center. Thus, England gained one center (Sweden), Austria gained one center (Venice), Italy gained one center (Rome) but lost one center (Venice), resulting in a net gain of zero centers for Italy if we only consider the "gained" and "lost" centers mentioned here. However, the question states that Italy "gained centers: ROM" and "lost centers: VEN," so the net change for Italy should be verified. However, the question also states that France lost one center (Rome), and Germany lost one center (Sweden).}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: W1917A =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{During the Fall 1917 Movement phase (F1917M), several significant changes occurred in the distribution of supply centers. Germany lost Sweden to England, which now controls that center. France lost Rome to Italy, which now controls that center. However, Italy lost Venice to Austria, which now controls that center. Thus, England gained one center (Sweden), Austria gained one center (Venice), Italy gained one center (Rome) but lost one center (Venice), resulting in a net gain of zero centers for Italy if we only consider the "gained" and "lost" centers mentioned here. However, the question states that Italy "gained centers: ROM" and "lost centers: VEN," so the net change for Italy should be verified. However, the question also states that France lost one center (Rome), and Germany lost one center (Sweden).}
+
+PHASE JUST COMPLETED: W1917A
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: W1917A ---
+\boxed{During the Winter 1917 Adjustment phase (W1917A), no supply centers changed hands. The distribution of supply centers remained as it was at the end of the Fall 1917 Movement phase. Thus, England still holds the additional center of Sweden, which it captured from Germany. Italy retains control of Rome, which it took from France, while Austria still holds Venice, which it captured from Italy. The net result is that England has gained one center (Sweden), Austria has gained one center (Venice), Italy has a net change of zero centers (gaining Rome but losing Venice), France has lost one center (Rome), and Germany has lost one center (Sweden).}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: S1918M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{During the Winter 1917 Adjustment phase (W1917A), no supply centers changed hands. The distribution of supply centers remained as it was at the end of the Fall 1917 Movement phase. Thus, England still holds the additional center of Sweden, which it captured from Germany. Italy retains control of Rome, which it took from France, while Austria still holds Venice, which it captured from Italy. The net result is that England has gained one center (Sweden), Austria has gained one center (Venice), Italy has a net change of zero centers (gaining Rome but losing Venice), France has lost one center (Rome), and Germany has lost one center (Sweden).}
+
+PHASE JUST COMPLETED: S1918M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: S1918M ---
+\boxed{During the Spring 1918 Movement phase (S1918M), no supply centers changed hands. The distribution of supply centers thus remains the same as it was at the end of the Winter 1917 Adjustment phase. England still holds Sweden (which it captured from Germany), Italy still holds Rome (which it captured from France), and Austria still holds Venice (which it captured from Italy). The net result is that England has one additional center (Sweden), Austria has one additional center (Venice), Italy has a net change of zero centers (gaining Rome but losing Venice), France has lost one center (Rome), and Germany has lost one center (Sweden).}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: S1918R =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{During the Spring 1918 Movement phase (S1918M), no supply centers changed hands. The distribution of supply centers thus remains the same as it was at the end of the Winter 1917 Adjustment phase. England still holds Sweden (which it captured from Germany), Italy still holds Rome (which it captured from France), and Austria still holds Venice (which it captured from Italy). The net result is that England has one additional center (Sweden), Austria has one additional center (Venice), Italy has a net change of zero centers (gaining Rome but losing Venice), France has lost one center (Rome), and Germany has lost one center (Sweden).}
+
+PHASE JUST COMPLETED: S1918R
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: S1918R ---
+\boxed{During the Spring 1918 Retreat phase (S1918R), any dislodged units from the Spring 1918 Movement phase made necessary retreats or were disbanded if no valid retreat options were available. However, no supply center ownership changes occurred during this phase.}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: F1918M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{During the Spring 1918 Retreat phase (S1918R), any dislodged units from the Spring 1918 Movement phase made necessary retreats or were disbanded if no valid retreat options were available. However, no supply center ownership changes occurred during this phase.}
+
+PHASE JUST COMPLETED: F1918M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- GERMANY lost centers: KIE (to ENGLAND)
+- FRANCE gained centers: ROM
+- ENGLAND gained centers: KIE
+- ITALY lost centers: ROM (to FRANCE)
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: F1918M ---
+\boxed{During the Fall 1918 Movement phase (F1918M), England successfully captured Kiel from Germany, thus gaining control of that supply center while Germany lost it. Simultaneously, France made a significant move by capturing Rome from Italy, which resulted in France gaining control of Rome while Italy lost it. These changes reflect a strategic shift in the control of key supply centers among the involved powers.}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: W1918A =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{During the Fall 1918 Movement phase (F1918M), England successfully captured Kiel from Germany, thus gaining control of that supply center while Germany lost it. Simultaneously, France made a significant move by capturing Rome from Italy, which resulted in France gaining control of Rome while Italy lost it. These changes reflect a strategic shift in the control of key supply centers among the involved powers.}
+
+PHASE JUST COMPLETED: W1918A
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: W1918A ---
+\boxed{During the Fall 1918 Movement phase (F1918M), England successfully captured Kiel from Germany, thus gaining control of that supply center while Germany lost it. Simultaneously, France made a significant move by capturing Rome from Italy, which resulted in France gaining control of Rome while Italy lost it. These changes reflect a strategic shift in the control of key supply centers among the involved powers.}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: S1919M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{During the Fall 1918 Movement phase (F1918M), England successfully captured Kiel from Germany, thus gaining control of that supply center while Germany lost it. Simultaneously, France made a significant move by capturing Rome from Italy, which resulted in France gaining control of Rome while Italy lost it. These changes reflect a strategic shift in the control of key supply centers among the involved powers.}
+
+PHASE JUST COMPLETED: S1919M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: S1919M ---
+\boxed{During the Fall 1918 Movement phase (F1918M), England successfully captured Kiel from Germany, thus gaining control of that supply center while Germany lost it. Simultaneously, France made a significant move by capturing Rome from Italy, which resulted in France gaining control of Rome while Italy lost it. These changes reflect a strategic shift in the control of key supply centers among the involved powers.}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: F1919M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{During the Fall 1918 Movement phase (F1918M), England successfully captured Kiel from Germany, thus gaining control of that supply center while Germany lost it. Simultaneously, France made a significant move by capturing Rome from Italy, which resulted in France gaining control of Rome while Italy lost it. These changes reflect a strategic shift in the control of key supply centers among the involved powers.}
+
+PHASE JUST COMPLETED: F1919M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: F1919M ---
+\boxed{During the Fall 1918 Movement phase (F1918M), England successfully captured Kiel from Germany, thus gaining control of that supply center while Germany lost it. Simultaneously, France made a significant move by capturing Rome from Italy, which resulted in France gaining control of Rome while Italy lost it. These changes reflect a strategic shift in the control of key supply centers among the involved powers.}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: S1920M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{During the Fall 1918 Movement phase (F1918M), England successfully captured Kiel from Germany, thus gaining control of that supply center while Germany lost it. Simultaneously, France made a significant move by capturing Rome from Italy, which resulted in France gaining control of Rome while Italy lost it. These changes reflect a strategic shift in the control of key supply centers among the involved powers.}
+
+PHASE JUST COMPLETED: S1920M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: S1920M ---
+\boxed{During the Fall 1918 Movement phase (F1918M), England successfully captured Kiel from Germany, thus gaining control of that supply center while Germany lost it. Simultaneously, France made a significant move by capturing Rome from Italy, which resulted in France gaining control of Rome while Italy lost it. These changes reflect a strategic shift in the control of key supply centers among the involved powers.}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: F1920M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{During the Fall 1918 Movement phase (F1918M), England successfully captured Kiel from Germany, thus gaining control of that supply center while Germany lost it. Simultaneously, France made a significant move by capturing Rome from Italy, which resulted in France gaining control of Rome while Italy lost it. These changes reflect a strategic shift in the control of key supply centers among the involved powers.}
+
+PHASE JUST COMPLETED: F1920M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: F1920M ---
+\boxed{During the Fall 1918 Movement phase (F1918M), England successfully captured Kiel from Germany, thus gaining control of that supply center while Germany lost it. Simultaneously, France made a significant move by capturing Rome from Italy, which resulted in France gaining control of Rome while Italy lost it. These changes reflect a strategic shift in the control of key supply centers among the involved powers.}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: S1921M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{During the Fall 1918 Movement phase (F1918M), England successfully captured Kiel from Germany, thus gaining control of that supply center while Germany lost it. Simultaneously, France made a significant move by capturing Rome from Italy, which resulted in France gaining control of Rome while Italy lost it. These changes reflect a strategic shift in the control of key supply centers among the involved powers.}
+
+PHASE JUST COMPLETED: S1921M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: S1921M ---
+\boxed{During the Fall 1918 Movement phase (F1918M), England successfully captured Kiel from Germany, thus gaining control of that supply center while Germany lost it. Simultaneously, France made a significant move by capturing Rome from Italy, which resulted in France gaining control of Rome while Italy lost it. These changes reflect a strategic shift in the control of key supply centers among the involved powers.}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: F1921M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{During the Fall 1918 Movement phase (F1918M), England successfully captured Kiel from Germany, thus gaining control of that supply center while Germany lost it. Simultaneously, France made a significant move by capturing Rome from Italy, which resulted in France gaining control of Rome while Italy lost it. These changes reflect a strategic shift in the control of key supply centers among the involved powers.}
+
+PHASE JUST COMPLETED: F1921M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: F1921M ---
+\boxed{During the Fall 1918 Movement phase (F1918M), England successfully captured Kiel from Germany, thus gaining control of that supply center while Germany lost it. Simultaneously, France made a significant move by capturing Rome from Italy, which resulted in France gaining control of Rome while Italy lost it. These changes reflect a strategic shift in the control of key supply centers among the involved powers.}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: S1922M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{During the Fall 1918 Movement phase (F1918M), England successfully captured Kiel from Germany, thus gaining control of that supply center while Germany lost it. Simultaneously, France made a significant move by capturing Rome from Italy, which resulted in France gaining control of Rome while Italy lost it. These changes reflect a strategic shift in the control of key supply centers among the involved powers.}
+
+PHASE JUST COMPLETED: S1922M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: S1922M ---
+\boxed{During the Fall 1918 Movement phase (F1918M), England successfully captured Kiel from Germany, thus gaining control of that supply center while Germany lost it. Simultaneously, France made a significant move by capturing Rome from Italy, which resulted in France gaining control of Rome while Italy lost it. These changes reflect a strategic shift in the control of key supply centers among the involved powers.}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: F1922M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{During the Fall 1918 Movement phase (F1918M), England successfully captured Kiel from Germany, thus gaining control of that supply center while Germany lost it. Simultaneously, France made a significant move by capturing Rome from Italy, which resulted in France gaining control of Rome while Italy lost it. These changes reflect a strategic shift in the control of key supply centers among the involved powers.}
+
+PHASE JUST COMPLETED: F1922M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: F1922M ---
+\boxed{During the Fall 1918 Movement phase (F1918M), England successfully captured Kiel from Germany, thus gaining control of that supply center while Germany lost it. Simultaneously, France made a significant move by capturing Rome from Italy, which resulted in France gaining control of Rome while Italy lost it. These changes reflect a strategic shift in the control of key supply centers among the involved powers.}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: S1923M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{During the Fall 1918 Movement phase (F1918M), England successfully captured Kiel from Germany, thus gaining control of that supply center while Germany lost it. Simultaneously, France made a significant move by capturing Rome from Italy, which resulted in France gaining control of Rome while Italy lost it. These changes reflect a strategic shift in the control of key supply centers among the involved powers.}
+
+PHASE JUST COMPLETED: S1923M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: S1923M ---
+\boxed{During the Fall 1918 Movement phase (F1918M), England successfully captured Kiel from Germany, thus gaining control of that supply center while Germany lost it. Simultaneously, France made a significant move by capturing Rome from Italy, which resulted in France gaining control of Rome while Italy lost it. These changes reflect a strategic shift in the control of key supply centers among the involved powers.}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: F1923M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{During the Fall 1918 Movement phase (F1918M), England successfully captured Kiel from Germany, thus gaining control of that supply center while Germany lost it. Simultaneously, France made a significant move by capturing Rome from Italy, which resulted in France gaining control of Rome while Italy lost it. These changes reflect a strategic shift in the control of key supply centers among the involved powers.}
+
+PHASE JUST COMPLETED: F1923M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: F1923M ---
+\boxed{During the Fall 1918 Movement phase (F1918M), England successfully captured Kiel from Germany, thus gaining control of that supply center while Germany lost it. Simultaneously, France made a significant move by capturing Rome from Italy, which resulted in France gaining control of Rome while Italy lost it. These changes reflect a strategic shift in the control of key supply centers among the involved powers.}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: S1924M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{During the Fall 1918 Movement phase (F1918M), England successfully captured Kiel from Germany, thus gaining control of that supply center while Germany lost it. Simultaneously, France made a significant move by capturing Rome from Italy, which resulted in France gaining control of Rome while Italy lost it. These changes reflect a strategic shift in the control of key supply centers among the involved powers.}
+
+PHASE JUST COMPLETED: S1924M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: S1924M ---
+\boxed{During the Fall 1918 Movement phase (F1918M), England successfully captured Kiel from Germany, thus gaining control of that supply center while Germany lost it. Simultaneously, France made a significant move by capturing Rome from Italy, which resulted in France gaining control of Rome while Italy lost it. These changes reflect a strategic shift in the control of key supply centers among the involved powers.}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: F1924M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{During the Fall 1918 Movement phase (F1918M), England successfully captured Kiel from Germany, thus gaining control of that supply center while Germany lost it. Simultaneously, France made a significant move by capturing Rome from Italy, which resulted in France gaining control of Rome while Italy lost it. These changes reflect a strategic shift in the control of key supply centers among the involved powers.}
+
+PHASE JUST COMPLETED: F1924M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: F1924M ---
+\boxed{During the Fall 1918 Movement phase (F1918M), England successfully captured Kiel from Germany, thus gaining control of that supply center while Germany lost it. Simultaneously, France made a significant move by capturing Rome from Italy, which resulted in France gaining control of Rome while Italy lost it. These changes reflect a strategic shift in the control of key supply centers among the involved powers.}
+--- End Summary Result ---
+
+===== Summary Prompt for Phase: S1925M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+\boxed{During the Fall 1918 Movement phase (F1918M), England successfully captured Kiel from Germany, thus gaining control of that supply center while Germany lost it. Simultaneously, France made a significant move by capturing Rome from Italy, which resulted in France gaining control of Rome while Italy lost it. These changes reflect a strategic shift in the control of key supply centers among the involved powers.}
+
+PHASE JUST COMPLETED: S1925M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- No centers changed ownership.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: S1925M ---
+\boxed{During the Fall 1918 Movement phase (F1918M), England successfully captured Kiel from Germany, thus gaining control of that supply center while Germany lost it. Simultaneously, France made a significant move by capturing Rome from Italy, which resulted in France gaining control of Rome while Italy lost it. These changes reflect a strategic shift in the control of key supply centers among the involved powers.}
+--- End Summary Result ---
