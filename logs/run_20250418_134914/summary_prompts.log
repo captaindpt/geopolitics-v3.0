@@ -1,0 +1,25 @@
+
+===== Summary Prompt for Phase: S1901M =====
+You are a historian summarizing a phase of a Diplomacy game.
+
+PREVIOUS SUMMARY:
+The game has just begun.
+
+PHASE JUST COMPLETED: S1901M
+
+KEY EVENTS & STATE CHANGES THIS PHASE:
+- Game started.
+
+INSTRUCTIONS:
+Based *only* on the information above (previous summary, phase name, key events), write a concise narrative summary of the phase that just completed ({phase_completed}).
+Focus on what happened objectively based on the provided events.
+Do NOT invent motivations, predict future moves, or analyze strategy. Just describe the outcomes.
+Keep the summary brief, like a historical log entry (2-4 sentences).
+Integrate the key events naturally into the narrative.
+Start directly with the summary, no preamble.
+
+--- End Summary Prompt ---
+
+--- Summary Result for Phase: S1901M ---
+\boxed{In Spring 1901, all major powers made their initial moves. The Austrian army in Budapest attempted to move to Galicia but encountered a Russian army from Warsaw that also tried to move there, resulting in a standoff where both armies remained in their original locations. Other notable movements included the English fleet from London moving to the English Channel, the French fleet from Brest moving to the Mid-Atlantic Ocean, the German fleet from Kiel moving to Denmark, the Italian army from Rome moving to Venice, and the Turkish army from Constantinople moving to Bulgaria.}
+--- End Summary Result ---

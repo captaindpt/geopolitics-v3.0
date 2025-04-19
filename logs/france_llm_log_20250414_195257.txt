@@ -1,0 +1,96 @@
+
+======================================================================
+--- FRANCE Context [NEGOTIATION_ROUND_1] (S1901M) ---
+======================================================================
+You are FRANCE, playing Diplomacy.
+Your goal is to win the game by controlling 18 supply centers.
+FIRST, think step-by-step about the current situation, your goals for this phase, potential actions, and the reasoning for your final decision. Write this reasoning down as plain text.
+SECOND, after your reasoning, output the exact separator line: ---JSON RESPONSE---
+THIRD, IMMEDIATELY AFTER the separator line, provide ONLY the required JSON list of tool calls for this phase. Do NOT include any other text or markdown formatting around the JSON.
+
+        Example Structure:
+        <Your detailed reasoning and step-by-step thinking process here...>
+        ---JSON RESPONSE---
+        [ { "tool_name": "...", "arguments": {...} }, ... ]
+        
+
+--- Current Context ---
+== OVERALL GOAL ==
+You are France. Corner position. Expand into Iberia (Spa, Por) and potentially Belgium/Burgundy. Balance relations with England and Germany.
+
+== CURRENT GAME SUMMARY ==
+The game has just begun.
+
+== CURRENT SITUATION ==
+Phase: S1901M
+Your Interaction Step: NEGOTIATION_ROUND_1
+
+== CURRENT GAME STATE ==
+  Your Units: F BRE, A MAR, A PAR
+  All Units: {"AUSTRIA": [["A", "BUD"], ["A", "VIE"], ["F", "TRI"]], "ENGLAND": [["F", "EDI"], ["F", "LON"], ["A", "LVP"]], "FRANCE": [["F", "BRE"], ["A", "MAR"], ["A", "PAR"]], "GERMANY": [["F", "KIE"], ["A", "BER"], ["A", "MUN"]], "ITALY": [["F", "NAP"], ["A", "ROM"], ["A", "VEN"]], "RUSSIA": [["A", "WAR"], ["A", "MOS"], ["F", "SEV"], ["F", "STP/SC"]], "TURKEY": [["F", "ANK"], ["A", "CON"], ["A", "SMY"]]}
+  Supply Centers: {"AUSTRIA": ["BUD", "TRI", "VIE"], "ENGLAND": ["EDI", "LON", "LVP"], "FRANCE": ["BRE", "MAR", "PAR"], "GERMANY": ["BER", "KIE", "MUN"], "ITALY": ["NAP", "ROM", "VEN"], "RUSSIA": ["MOS", "SEV", "STP", "WAR"], "TURKEY": ["ANK", "CON", "SMY"]}
+
+== MESSAGES RECEIVED THIS STEP ==
+  (None)
+
+
+== TASK: Negotiate ==
+1. THINKING PHASE: Analyze messages, state, goals. Decide who to talk to, what to say, what to remember. Write down your step-by-step reasoning.
+2. SEPARATOR: Output the separator line '---JSON RESPONSE---'.
+3. JSON PHASE: Output the JSON list containing tool calls for messages, memory updates, etc.
+   - Use 'log_thought' FIRST in the JSON to *briefly summarize* your plan for this round (e.g., 'Plan: Propose DMZ to England, ask Germany intentions').
+   - Use 'send_message' (ensure valid recipient power name).
+   - Use 'update_memory'.
+   - Use 'finish_negotiation_round' at the end.
+
+Allowed Tools (for JSON part):
+  - log_thought(thought: str) # Briefly summarize plan for this negotiation round.
+  - send_message(recipient: str, message_type: str, content: str) # Recipient MUST be a major power.
+  - update_memory(key: str, value: any)
+  - finish_negotiation_round() # MUST be the last tool call in the JSON list.
+
+Remember the structure: Reasoning -> Separator -> JSON.
+
+Now, generate your response following the structure: Reasoning -> Separator -> JSON.
+----------------------------------------------------------------------
+--- FRANCE Raw Response [NEGOTIATION_ROUND_1] (S1901M) ---
+\boxed{
+```json
+[
+    {
+        "tool_name": "log_thought",
+        "arguments": {
+            "thought": "Plan: Propose DMZ to England in the English Channel, discuss Burgundy and Belgium with Germany, and propose a non-aggression pact with Italy focusing on Spain and Portugal for France and the Balkans for Italy."
+        }
+    },
+    {
+        "tool_name": "send_message",
+        "arguments": {
+            "recipient": "ENGLAND",
+            "message_type": "proposal",
+            "content": "Hello England, I propose a DMZ in the English Channel (ENG) to avoid early conflict. This would allow us both to focus on other areas such as the North Sea for you and Iberia for me. What do you think?"
+        }
+    },
+    {
+        "tool_name": "send_message",
+        "arguments": {
+            "recipient": "GERMANY",
+            "message_type": "proposal",
+            "content": "Hello Germany, I would like to discuss our intentions regarding Burgundy and Belgium. I propose a DMZ in Burgundy (BUR) and a mutual understanding where we both aim for a peaceful resolution regarding Belgium. What are your thoughts?"
+        }
+    },
+    {
+        "tool_name": "send_message",
+        "arguments": {
+            "recipient": "ITALY",
+            "message_type": "proposal",
+            "content": "Hello Italy, I would like to discuss our intentions in the Mediterranean. I propose a non-aggression pact where I focus on Spain and Portugal while you focus on the Balkans and Austria. What do you think?"
+        }
+    },
+    {
+        "tool_name": "finish_negotiation_round"
+    }
+]
+```
+}
+======================================================================

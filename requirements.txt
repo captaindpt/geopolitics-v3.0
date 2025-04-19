@@ -1,4 +1,4 @@
+openai
+dotenv
 diplomacy
-openai>=1.0.0
-python-dotenv
 coloredlogs 

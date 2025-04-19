@@ -1,0 +1,28 @@
+2025-04-16 02:41:36,450 - __main__ - INFO - Logging initialized. Run logs will be saved in: logs/run_20250416_024136
+2025-04-16 02:41:36,450 - __main__ - INFO - --- Starting Diplomacy Game Simulation (MCP Mode) ---
+2025-04-16 02:41:36,450 - __main__ - INFO - Initializing Orchestrator MCP Client...
+2025-04-16 02:41:36,451 - __main__ - CRITICAL - Framework failed to run due to unhandled exception: stdio_client() got an unexpected keyword argument 'initial_metadata'
+Traceback (most recent call last):
+  File "/Users/manirashahmadi/ccode/geopolitics-v3.0/diplomacy_agent_framework/core/framework.py", line 497, in <module>
+    asyncio.run(orchestrator.run_game())
+  File "/Users/manirashahmadi/miniforge3/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/Users/manirashahmadi/miniforge3/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manirashahmadi/miniforge3/lib/python3.12/asyncio/base_events.py", line 686, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/Users/manirashahmadi/ccode/geopolitics-v3.0/diplomacy_agent_framework/core/framework.py", line 218, in run_game
+    await self._initialize_orchestrator_mcp_client()
+  File "/Users/manirashahmadi/ccode/geopolitics-v3.0/diplomacy_agent_framework/core/framework.py", line 171, in _initialize_orchestrator_mcp_client
+    conn_context_manager = stdio_client(
+                           ^^^^^^^^^^^^^
+  File "/Users/manirashahmadi/miniforge3/lib/python3.12/contextlib.py", line 334, in helper
+    return _AsyncGeneratorContextManager(func, args, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manirashahmadi/miniforge3/lib/python3.12/contextlib.py", line 105, in __init__
+    self.gen = func(*args, **kwds)
+               ^^^^^^^^^^^^^^^^^^^
+TypeError: stdio_client() got an unexpected keyword argument 'initial_metadata'

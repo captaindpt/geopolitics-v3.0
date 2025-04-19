@@ -1,0 +1,52 @@
+2025-04-16 02:44:09,537 - __main__ - INFO - Logging initialized. Run logs will be saved in: logs/run_20250416_024409
+2025-04-16 02:44:09,538 - __main__ - INFO - --- Starting Diplomacy Game Simulation (MCP Mode) ---
+2025-04-16 02:44:09,538 - __main__ - INFO - Initializing Orchestrator MCP Client...
+2025-04-16 02:44:09,552 - __main__ - INFO - Orchestrator attempting MCP initialize to stdio_game_engine server...
+2025-04-16 02:44:09,552 - __main__ - ERROR - Orchestrator failed during MCP initialize handshake with stdio_game_engine server: ClientSession.initialize() got an unexpected keyword argument 'client_info'
+Traceback (most recent call last):
+  File "/Users/manirashahmadi/ccode/geopolitics-v3.0/diplomacy_agent_framework/core/framework.py", line 193, in _initialize_orchestrator_mcp_client
+    self.mcp_client_orchestrator.initialize(client_info=orchestrator_client_info), # Pass clientInfo here
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ClientSession.initialize() got an unexpected keyword argument 'client_info'
+2025-04-16 02:44:09,554 - __main__ - CRITICAL - Framework failed to run due to unhandled exception: unhandled errors in a TaskGroup (1 sub-exception)
+  + Exception Group Traceback (most recent call last):
+  |   File "/Users/manirashahmadi/ccode/geopolitics-v3.0/diplomacy_agent_framework/core/framework.py", line 505, in <module>
+  |     asyncio.run(orchestrator.run_game())
+  |   File "/Users/manirashahmadi/miniforge3/lib/python3.12/asyncio/runners.py", line 194, in run
+  |     return runner.run(main)
+  |            ^^^^^^^^^^^^^^^^
+  |   File "/Users/manirashahmadi/miniforge3/lib/python3.12/asyncio/runners.py", line 118, in run
+  |     return self._loop.run_until_complete(task)
+  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/Users/manirashahmadi/miniforge3/lib/python3.12/asyncio/base_events.py", line 686, in run_until_complete
+  |     return future.result()
+  |            ^^^^^^^^^^^^^^^
+  |   File "/Users/manirashahmadi/ccode/geopolitics-v3.0/diplomacy_agent_framework/core/framework.py", line 226, in run_game
+  |     await self._initialize_orchestrator_mcp_client()
+  |   File "/Users/manirashahmadi/ccode/geopolitics-v3.0/diplomacy_agent_framework/core/framework.py", line 180, in _initialize_orchestrator_mcp_client
+  |     async with conn_context_manager as streams:
+  |                ^^^^^^^^^^^^^^^^^^^^
+  |   File "/Users/manirashahmadi/miniforge3/lib/python3.12/contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "/Users/manirashahmadi/miniforge3/lib/python3.12/site-packages/mcp/client/stdio/__init__.py", line 167, in stdio_client
+  |     anyio.create_task_group() as tg,
+  |     ^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/Users/manirashahmadi/miniforge3/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 772, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/Users/manirashahmadi/ccode/geopolitics-v3.0/diplomacy_agent_framework/core/framework.py", line 193, in _initialize_orchestrator_mcp_client
+    |     self.mcp_client_orchestrator.initialize(client_info=orchestrator_client_info), # Pass clientInfo here
+    |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    | TypeError: ClientSession.initialize() got an unexpected keyword argument 'client_info'
+    | 
+    | During handling of the above exception, another exception occurred:
+    | 
+    | Traceback (most recent call last):
+    |   File "/Users/manirashahmadi/miniforge3/lib/python3.12/site-packages/mcp/client/stdio/__init__.py", line 173, in stdio_client
+    |     yield read_stream, write_stream
+    |   File "/Users/manirashahmadi/ccode/geopolitics-v3.0/diplomacy_agent_framework/core/framework.py", line 212, in _initialize_orchestrator_mcp_client
+    |     raise ConnectionError(f"Orchestrator failed MCP initialize handshake with {server_id}.")
+    | ConnectionError: Orchestrator failed MCP initialize handshake with stdio_game_engine.
+    +------------------------------------

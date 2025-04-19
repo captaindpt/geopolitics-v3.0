@@ -1,0 +1,12 @@
+name: diplomacy_env
+channels:
+  - defaults
+dependencies:
+  - python=3.9  # Use a newer, more available version
+  - pip
+  - jupyter
+  - pip:
+    - diplomacy
+    - openai
+    - python-dotenv
+    - coloredlogs

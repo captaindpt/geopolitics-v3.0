@@ -1,0 +1,55 @@
+2025-04-16 02:43:31,597 - __main__ - INFO - Logging initialized. Run logs will be saved in: logs/run_20250416_024331
+2025-04-16 02:43:31,597 - __main__ - INFO - --- Starting Diplomacy Game Simulation (MCP Mode) ---
+2025-04-16 02:43:31,597 - __main__ - INFO - Initializing Orchestrator MCP Client...
+2025-04-16 02:43:31,609 - __main__ - CRITICAL - Framework failed to run due to unhandled exception: [Errno 2] No such file or directory: 'python -m diplomacy_agent_framework.mcp_servers.game_engine_server'
+Traceback (most recent call last):
+  File "/Users/manirashahmadi/ccode/geopolitics-v3.0/diplomacy_agent_framework/core/framework.py", line 504, in <module>
+    asyncio.run(orchestrator.run_game())
+  File "/Users/manirashahmadi/miniforge3/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/Users/manirashahmadi/miniforge3/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manirashahmadi/miniforge3/lib/python3.12/asyncio/base_events.py", line 686, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/Users/manirashahmadi/ccode/geopolitics-v3.0/diplomacy_agent_framework/core/framework.py", line 225, in run_game
+    await self._initialize_orchestrator_mcp_client()
+  File "/Users/manirashahmadi/ccode/geopolitics-v3.0/diplomacy_agent_framework/core/framework.py", line 179, in _initialize_orchestrator_mcp_client
+    async with conn_context_manager as streams:
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manirashahmadi/miniforge3/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manirashahmadi/miniforge3/lib/python3.12/site-packages/mcp/client/stdio/__init__.py", line 113, in stdio_client
+    process = await _create_platform_compatible_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manirashahmadi/miniforge3/lib/python3.12/site-packages/mcp/client/stdio/__init__.py", line 212, in _create_platform_compatible_process
+    process = await anyio.open_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manirashahmadi/miniforge3/lib/python3.12/site-packages/anyio/_core/_subprocesses.py", line 190, in open_process
+    return await get_async_backend().open_process(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manirashahmadi/miniforge3/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2561, in open_process
+    process = await asyncio.create_subprocess_exec(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manirashahmadi/miniforge3/lib/python3.12/asyncio/subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manirashahmadi/miniforge3/lib/python3.12/asyncio/base_events.py", line 1749, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manirashahmadi/miniforge3/lib/python3.12/asyncio/unix_events.py", line 211, in _make_subprocess_transport
+    transp = _UnixSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/manirashahmadi/miniforge3/lib/python3.12/asyncio/base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "/Users/manirashahmadi/miniforge3/lib/python3.12/asyncio/unix_events.py", line 820, in _start
+    self._proc = subprocess.Popen(
+                 ^^^^^^^^^^^^^^^^^
+  File "/Users/manirashahmadi/miniforge3/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Users/manirashahmadi/miniforge3/lib/python3.12/subprocess.py", line 1955, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'python -m diplomacy_agent_framework.mcp_servers.game_engine_server'

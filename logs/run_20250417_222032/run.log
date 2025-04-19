@@ -1,0 +1,9 @@
+Run Log Initialized: 2025-04-17 22:20:32.240918
+[2025-04-17 22:20:32.241] Framework: Consolidated run log initialized.
+[2025-04-17 22:20:32.241] Framework: Initialization complete.
+[2025-04-17 22:20:32.241]     
+=== Framework: Starting Game Run ===
+[2025-04-17 22:20:32.241]     
+--- Framework: Starting Phase S1901M --- (1) ---
+[2025-04-17 22:20:32.241]    -- Framework: Starting NEGOTIATION_ROUND_1 --
+[2025-04-17 22:20:32.241]       - Framework: Activating AUSTRIA (LLMAgent)
